@@ -1,17 +1,17 @@
 @charset "utf-8";
-/* CSS Document 
-Project Name: Collis    
-Version:  1.1 
+/* CSS Document
+Project Name: Collis
+Version:  1.1
 Created Date: Feb 20, 2018
 Primary use: Personal Portfolio, resume, cv.
 Author Name: Awesome_Theme (https://themeforest.net/user/awesome_theme)
 */
 
-/* 
+/*
 ---///---///--- TABLE OF CONTENT ---///---///---
 
 01. Imported Fonts
-02. General CSS 
+02. General CSS
         * Common CSS
         * Form CSS
         * Btn CSS
@@ -19,19 +19,19 @@ Author Name: Awesome_Theme (https://themeforest.net/user/awesome_theme)
         * Default Title CSS
         * Preloader CSS
         * Scroll To Top CSS
-03. Header CSS 
+03. Header CSS
 04. Welcome CSS
 05. Welcome two CSS
 06. About CSS
         * About Two CSS
 07. Service CSS
 08. Counter CSS
-09. Portfolio CSS  
-        * Item Hover CSS  
-10. Testimonial CSS 
+09. Portfolio CSS
+        * Item Hover CSS
+10. Testimonial CSS
 11. Blog CSS
         * Blog Single CSS
-        * Sidebar CSS  
+        * Sidebar CSS
 12. Contact CSS
 13. Page title CSS
 14. Footer CSS
@@ -50,7 +50,7 @@ Author Name: Awesome_Theme (https://themeforest.net/user/awesome_theme)
 
 
 /*---///---///---///---///---///---///---///---///---///---
-    02. General CSS 
+    02. General CSS
 ---///---///---///---///---///---///---///---///---///---*/
 
 body {
@@ -178,7 +178,7 @@ input:-moz-placeholder {
     border: none;
     border-radius: 0;
     color: #ffffff;
-    background: lightgrey;
+    background: darkslategray;
     padding: 12px 30px;
     text-transform: uppercase;
     position: relative;
@@ -224,7 +224,7 @@ input:-moz-placeholder {
     color: #ffffff;
     background: #111111;
     z-index: 1;
-    border-color: rgba(7, 235, 235, 0.79);;
+    border-color: #6AB4FF;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
@@ -266,13 +266,24 @@ input:-moz-placeholder {
 .default-title {
     margin-bottom: 60px;
 }
-.default-title h2 {
+
+/*
+default-title h2 {
     font-size: 36px;
     line-height: 1.1;
     margin-bottom: 20px;
     text-transform: capitalize;
     font-weight: 800;
+}*/
+
+.default-title h2{
+    color: white;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: capitalize;
 }
+
 .default-title p {
     letter-spacing: 1px;
     font-weight: bold;
@@ -336,7 +347,7 @@ input:-moz-placeholder {
 }
 #loader .dot:nth-child(7n+1)::before {
     animation: 0.8s linear 0.1s normal none infinite running load;
-    background: darkblue none repeat scroll 0 0;
+    background: #00ff80 none repeat scroll 0 0;
 }
 #loader .dot:nth-child(7n+2) {
     transform: rotate(90deg);
@@ -399,16 +410,16 @@ input:-moz-placeholder {
     width: 180px;
 }
 @keyframes load {
-100% {
-    opacity: 0;
-    transform: scale(1);
-}
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
 }
 @keyframes load {
-100% {
-    opacity: 0;
-    transform: scale(1);
-}
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
 }
 
 
@@ -431,7 +442,7 @@ input:-moz-placeholder {
     position: absolute;
     left: 0;
     bottom: 10px;
-    color: midnightblue;
+    color: aqua;
     font-size: 45px;
 }
 
@@ -445,7 +456,7 @@ input:-moz-placeholder {
 
 
 /*---///---///---///---///---///---///---///---///---///---
-    03. Header CSS 
+    03. Header CSS
 ---///---///---///---///---///---///---///---///---///---*/
 .main-header {
     position: absolute;
@@ -454,7 +465,8 @@ input:-moz-placeholder {
     z-index: 999;
     width: 100%;
 }
-.main-nav {
+/*
+main-nav {
     background: transparent;
     border-bottom: none;
     padding-top: 15px;
@@ -465,7 +477,25 @@ input:-moz-placeholder {
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+}*/
+
+.main-nav {
+    background: black;
+    border-bottom: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
+
+
+
+
+
 .main-nav .navbar-nav {
     text-align: right;
     -webkit-transition: all 0.5s ease-in-out;
@@ -473,7 +503,7 @@ input:-moz-placeholder {
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-  }
+}
 .top-nav-collapse {
     background: #ffffff;
     -webkit-transition: all 0.5s ease-in-out;
@@ -506,10 +536,8 @@ input:-moz-placeholder {
     margin-left: 0 !important;
     margin-top: 8px;
 }
-logo-white {
+.logo-white {
     display: block;
-    font-size: 40px;
-
 }
 .logo-black {
     display: none;
@@ -541,15 +569,18 @@ logo-white {
 }
 .main-nav .navbar-nav>li>a:hover {
     color: aqua;
+
 }
-.main-nav .navbar-nav>.active>a, 
-.main-nav .navbar-nav>.active>a:focus, 
+.main-nav .navbar-nav>.active>a,
+.main-nav .navbar-nav>.active>a:focus,
 .main-nav .navbar-nav>.active>a:hover {
     background: transparent;
     color: aqua;
 }
 .navbar-nav>.active>a {
     color: aqua !important;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.63);
+
 }
 .main-nav .navbar-right {
     margin-right: 0;
@@ -561,8 +592,9 @@ logo-white {
     04. Welcome CSS
 ---///---///---///---///---///---///---///---///---///---*/
 .welcome-section {
+    padding: 220px 0 0;
     position: relative;
-
+    background: url(../images/bg/1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -590,11 +622,11 @@ logo-white {
 }
 @media screen and (max-width: 768px) {
     .sec-btm-style:after {
-        bottom: -170px; 
-    } 
+        bottom: -170px;
+    }
 }
 .welcome-col img {
-    border: 4px solid darkgrey;
+    border: 4px solid #96c346;
     position: relative;
     z-index: 2;
 }
@@ -607,7 +639,7 @@ logo-white {
     margin-bottom: 20px;
 }
 .welcome-col h1 span {
-    color: aqua;
+    color: #96c346;
 }
 .welcome-col .cd-headline {
     color: #f9f9f9;
@@ -629,14 +661,14 @@ logo-white {
     color: #f9f9f9;
     border: 1px solid #f9f9f9;
     -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-     -ms-border-radius: 50%;
-     -o-border-radius: 50%;
-     border-radius: 50%; 
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
 }
 .welcome-col ul li a i:hover {
-    border-color: aqua;
-    background: aqua;
+    border-color: #96C346;
+    background: #96C346;
     color: #ffffff;
 }
 
@@ -649,19 +681,19 @@ logo-white {
     z-index: 1;
     position: relative;
     height: 100vh;
- }
- .welcome-section-two.over-layer-black:before {
+}
+.welcome-section-two.over-layer-black:before {
     background: rgba(0, 0, 0, 0.5);
- }
+}
 .welcome-table {
     width: 100%;
     height: 100%;
     display: table;
 }
- .welcome-cell {
+.welcome-cell {
     vertical-align: middle;
     display: table-cell;
- }
+}
 
 
 
@@ -669,7 +701,7 @@ logo-white {
     06. About CSS
 ---///---///---///---///---///---///---///---///---///---*/
 .about-section {
-    
+
 }
 .about-col h2 {
     font-size: 36px;
@@ -693,13 +725,13 @@ logo-white {
     margin-bottom: 0;
 }
 .about-section .progress-bar {
-    background-color: aqua;
+    background-color: #96C346;
     height: 5px;
     border-radius: 0;
 }
 /* About Two CSS */
 .about-two-section {
-    padding: 100px 0; 
+    padding: 100px 0;
 }
 .about-two-section .about-col img {
     border: 3px solid #cccccc;
@@ -755,8 +787,7 @@ logo-white {
     height: 90px;
     margin-left: -45px;
     line-height: 90px;
-    background: white;
-    border: 3px solid black;
+    background: black;
     font-size: 50px;
     color: #ffffff;
     transition: all 500ms ease 0s;
@@ -764,11 +795,11 @@ logo-white {
 .serviceBox:hover .service-icon{
     transform: scale(0.8, 0.8);
 }
-serviceBox .service-icon:after{
+.serviceBox .service-icon:after{
     content: "";
     width: 111px;
     height: 111px;
-    border: 4px solid grey;
+    border: 4px solid aqua;
     position: absolute;
     top: -10px;
     left: -10px;
@@ -816,7 +847,7 @@ serviceBox .service-icon:after{
 .counter-sec .counter-box .counter {
     position: relative;
     z-index: 2;
-    color: aqua;
+    color: #96c346;
     font-size: 36px;
     margin-bottom: 10px;
 }
@@ -857,7 +888,7 @@ serviceBox .service-icon:after{
     margin-bottom: 30px;
 }
 .filtr-container {
-    
+
 }
 .portfolio-nav li {
     display: inline-block;
@@ -873,7 +904,7 @@ serviceBox .service-icon:after{
     transition: all 0.5s ease-in-out;
 }
 .portfolio-nav li:hover {
-    color: aqua;
+    color: #96c346;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -961,7 +992,7 @@ serviceBox .service-icon:after{
 }
 .portfolio-item-info .item-caption ul li {
     display: inline-block;
-    border-right: 2px solid #ffffff; 
+    border-right: 2px solid #ffffff;
     margin-right: 10px;
 }
 .portfolio-item-info .item-caption ul li:last-child {
@@ -988,7 +1019,7 @@ serviceBox .service-icon:after{
     line-height: 1.3;
 }
 .portfolio-item-info .item-caption i {
-    color: aqua;
+    color: #96C346;
     font-size: 22px;
     padding-right: 10px;
 }
@@ -1001,7 +1032,7 @@ serviceBox .service-icon:after{
 ---///---///---///---///---///---///---///---///---///---*/
 .testimonial-section {
     background: #f5f5f5;
-    padding: 120px 0 120px; 
+    padding: 120px 0 120px;
     background: url(../images/bg/3.jpg);
 }
 .testimonial-section .default-title h2,
@@ -1017,7 +1048,7 @@ serviceBox .service-icon:after{
 }
 .testimonial-item {
     padding: 0 0 60px 0;
-    background: aqua;
+    background: #96C346;
 }
 .testimonial-item-content {
     position: relative;
@@ -1050,7 +1081,7 @@ serviceBox .service-icon:after{
     margin-bottom: 5px;
 }
 .testimonial-item-content span {
-    color: aqua;
+    color: #96C346;
     font-size: 12px;
 }
 .testimonial-item-content p {
@@ -1067,7 +1098,7 @@ serviceBox .service-icon:after{
     font-size: 0;
     width: 30px;
     height: 5px;
-    background: aqua;
+    background: #96C346;
 }
 
 
@@ -1099,7 +1130,7 @@ serviceBox .service-icon:after{
 }
 .blog-slide .blog-info li i{
     margin-right: 8px;
-    color: aqua;
+    color: #96c346;
 }
 .blog-slide .blog-info li a{
     font-size: 11px;
@@ -1107,7 +1138,7 @@ serviceBox .service-icon:after{
     text-transform: uppercase;
 }
 .blog-slide .blog-info li a:hover{
-    color: aqua;
+    color: #96c346;
     text-decoration: none;
 }
 .blog-slide .blog-img{
@@ -1148,7 +1179,7 @@ serviceBox .service-icon:after{
 }
 .blog-slide .read:hover{
     text-decoration: none;
-    color: aqua;
+    color: #96c346;
 }
 .blog-slide .blog-content{
     padding: 40px 20px 0 20px;
@@ -1162,7 +1193,7 @@ serviceBox .service-icon:after{
     top: -45px;
     right: 10px;
     overflow: hidden;
-    border:3px solid aqua;
+    border:3px solid #96c346;
 }
 .blog-slide .blog-author img{
     width: 100%;
@@ -1175,7 +1206,7 @@ serviceBox .service-icon:after{
     transition: all 0.30s linear 0s;
 }
 .blog-slide h3 a {
-    color: aqua;
+    color: #96c346;
     letter-spacing: 1px;
 }
 .blog-slide h3 a:hover {
@@ -1190,7 +1221,7 @@ serviceBox .service-icon:after{
 }
 .blog-slide .blog-description {
     margin-bottom: 30px;
-} 
+}
 
 
 
@@ -1214,7 +1245,7 @@ serviceBox .service-icon:after{
 }
 .blog-details-area .blog-date ul li i {
     margin-right: 5px;
-    color: aqua;
+    color: #96c346;
 }
 .blog-details-area .blog-date ul li a {
     color: #ffffff;
@@ -1227,7 +1258,7 @@ serviceBox .service-icon:after{
     background: #F5F5F5;
     margin-bottom: 30px;
     margin-top: 30px;
-    border-left: 3px solid aqua;
+    border-left: 3px solid #96c346;
 }
 .highlight-text p {
     font-weight: bold;
@@ -1268,7 +1299,7 @@ serviceBox .service-icon:after{
     margin-bottom: 10px;
 }
 .comment-item a i {
-    color: aqua;
+    color: #96c346;
 }
 
 .form-area .hvr-bounce-to-right {
@@ -1309,7 +1340,7 @@ serviceBox .service-icon:after{
     border-radius: 0;
     height: 50px;
     width: 60px;
-    background: aqua;
+    background: #96c346;
 }
 .sidebar-search .input-group-btn .btn i {
     font-size: 28px;
@@ -1335,7 +1366,7 @@ serviceBox .service-icon:after{
     border-bottom: none;
 }
 .categories ul li:hover {
-    border-color: aqua;
+    border-color: #96c346;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -1352,7 +1383,7 @@ serviceBox .service-icon:after{
     transition: all 0.3s ease-in-out;
 }
 .categories ul li:hover a {
-    color: aqua;
+    color: #96c346;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -1360,7 +1391,7 @@ serviceBox .service-icon:after{
     transition: all 0.3s ease-in-out;
 }
 .categories ul li:hover span {
-    color: aqua;
+    color: #96c346;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -1396,7 +1427,7 @@ serviceBox .service-icon:after{
     margin-bottom: 5px;
 }
 .news-item h4 a {
-    color: aqua;
+    color: #96c346;
     font-size: 15px;
 }
 .sidebar-tags {
@@ -1408,7 +1439,7 @@ serviceBox .service-icon:after{
     border: 1px solid #E6E6E6;
     margin-bottom: 10px;
     margin-right: 10px;
-    display: inline-block; 
+    display: inline-block;
     text-transform: uppercase;
     color: #676767;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1418,8 +1449,8 @@ serviceBox .service-icon:after{
     transition: all 0.3s ease-in-out;
 }
 .sidebar-tags a:hover {
-    border-color: aqua;
-    background: aqua;
+    border-color: #96c346;
+    background: #96c346;
     color: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1440,7 +1471,7 @@ serviceBox .service-icon:after{
     overflow: hidden;
 }
 .contact-sec.section-default {
-    
+
 }
 .contact-title {
     position: relative;
@@ -1524,7 +1555,7 @@ serviceBox .service-icon:after{
     background-repeat: no-repeat;
 }
 .page-title-sec h2 {
-    color: aqua;
+    color: #96c346;
 }
 .page-title-sec p {
     color: #a0a0a0;
@@ -1533,7 +1564,7 @@ serviceBox .service-icon:after{
     color: #a0a0a0;
 }
 .page-title-sec p a:hover {
-    color: aqua;
+    color: #96c346;
 }
 
 
@@ -1543,7 +1574,7 @@ serviceBox .service-icon:after{
     14. Footer CSS
 ---///---///---///---///---///---///---///---///---///---*/
 .main-footer {
-    
+
 }
 
 /* COPY RIGHT CSS START */
@@ -1561,10 +1592,10 @@ serviceBox .service-icon:after{
     color: #848484;
 }
 .copyright p a {
-    color: aqua;
+    color: #96c346;
 }
 .social {
-    
+
 }
 .social li {
     display: inline-block;
@@ -1575,7 +1606,7 @@ serviceBox .service-icon:after{
     height: 35px;
     text-align: center;
     font-size: 18px;
-    color: aqua;
+    color: #96c346;
     line-height: 36px;
     background: #111111;
     -webkit-border-radius: 50%;
@@ -1585,7 +1616,7 @@ serviceBox .service-icon:after{
     border-radius: 50%;
 }
 .social i:hover {
-    background: aqua;
+    background: #96c346;
     color: #ffffff;
 }
 
@@ -1602,7 +1633,7 @@ serviceBox .service-icon:after{
     background-position: center;
 }
 .main-demo-heading h1 {
-    color: aqua;
+    color: #96c346;
     font-size: 70px;
 }
 .main-demo-heading h2 {
@@ -1619,9 +1650,9 @@ serviceBox .service-icon:after{
     text-transform: uppercase;
 }
 .buy-btn:hover {
-    background: aqua;
+    background: #96c346;
     color: #ffffff;
-    border-color: aqua;
+    border-color: #96c346;
 }
 .demo-list-page {
     padding: 120px 0 110px;
@@ -1638,7 +1669,7 @@ serviceBox .service-icon:after{
 }
 .demo-list-page h5 {
     margin-bottom: 80px;
-    color: darkred;
+    color: #96c346;
     font-size: 18px;
     text-transform: capitalize;
 }

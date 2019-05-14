@@ -90,9 +90,12 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <div class="navbar-brand">
-                                    <a class="logo-black myHeading" href="index.html">TERRADO
+                                    <a class="logo-black myHeading" href="index.html">
+                                        <div class="logo-terrado">TERRADO</div>
                                     </a>
-                                    <a class="logo-white myHeading" href="index.html">TERRADO
+                                    <a class="logo-white myHeading" href="index.html">
+                                        <div class="logo-terrado"></div>
+
                                     </a>
                                 </div>
                             </div>
@@ -109,7 +112,7 @@
                                     </li>
                                    
                                     <li>
-                                        <a class="page-scroll" href="#work">Project</a>
+                                        <a class="page-scroll" href="#work">Projects</a>
                                     </li>
     
                                     <li>
@@ -132,13 +135,13 @@
 
     <!-- Welcome two Section -->
     <div class="welcome-section welcome-section-two jarallax over-layer-black" id="water-ripples">
-       <div class="welcome-table">
+       <div class="welcome-table my-background">
            <div class="welcome-cell">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="welcome-col text-center">
-                                <h1>Hi, I'm <span>Marie Christine Terrado</span></h1>
+                                <h1>Marie Christine Terrado</h1>
                                 <h3 class="cd-headline clip">
                                     <span class="cd-words-wrapper">
                                         <b class="is-visible">I am a web Developer</b>
@@ -163,11 +166,11 @@
 
     <!-- About Section -->
     <section class="about-section about-two-section section-default" id="about">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-5">
                     <div class="about-col col-default">
-                        <img src="images/screenshort/me2.png" alt="My Picture">
+                        <img src="images/screenshort/me2.png" alt="My Picture" id="myPicture">
                     </div>
                 </div>
                 <div class="col-md-7">
@@ -175,7 +178,10 @@
                         <h2>About me</h2>
                         <p>My developer story...</p>
                         <p class="mb30">My journey into the world of programming.</p>
+                        <!--
                         <h3>My Skills : </h3>
+                        -->
+                        <a href="#service"><h3 class="my-text">My Skills:</h3></a>
                         
                         <!-- Hide icons
                         <h5>Programming Languages & Tools</h5>
@@ -284,36 +290,54 @@
                     <div class="filtr-container">
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 2" data-sort="value">
                             <div class="portfolio-item">
-                                <img src="images/portfolio/1.jpg" class="img-responsive" alt="portfolio">
+                                <img src="images/screenshort/cbond-img.png" class="img-responsive my-projectImages" alt="portfolio">
+                                
                                 <div class="portfolio-item-info">
+                                    
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/1.jpg" data-lightbox="lightbox" data-title="my project title"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                <a href="images/screenshort/cbond-img.png" data-lightbox="lightbox" data-title="my project title">
+                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                <a href="#">
+                                                    <i class="fa fa-link" aria-hidden="true">
+                                                    </i>
+                                                </a>
                                             </li>
                                         </ul>
-                                        <h4><a href="#">my project title</a></h4>
+                                        <h4><a href="#">cBond</a></h4>
+    
+                                        <p class="myProject-desc">A 3-tier application that utilizes React and Axios, PHP, and MySQL to provide a nearly full ecommerce solution. It utilizes components for products, lists, details, cart, and purchases, as well as routing to display the proper component at the right time. The server has data sanitization and error handling for all of its endpoints.</p>
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 1" data-sort="value">
-                            <div class="portfolio-item">
-                                <img src="images/portfolio/2.jpg" class="img-responsive" alt="portfolio">
+                            <div class="portfolio-item first-project">
+                                
+                                <img src="images/screenshort/findFlix_img.png" class="img-responsive my-projectImages" alt="portfolio">
+                                
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/2.jpg" data-lightbox="lightbox" data-title="my project title"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                <a href="images/screenshort/findFlix_img.png" data-lightbox="lightbox" data-title="my project title">
+                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                <a href="c1018_hackathon2"><i class="fa fa-link" aria-hidden="true"></i></a>
                                             </li>
                                         </ul>
-                                        <h4><a href="#">my project title</a></h4>
+                                        <h4><a href="#">findFlix</a></h4>
+                                        
+                                        <p class="myProject-desc">Web Web app using HTML CSS, JS, jQuery, Asynchronous data calls through AJAX and using JSON. Accesses Google Maps and Google places api for location services and business information, Youtube api for video links and information for trailers, and IMDB api for movie information.</p>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -325,13 +349,16 @@
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/3.jpg" data-lightbox="lightbox" data-title="my project title"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                <a href="images/portfolio/3.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                         </ul>
-                                        <h4><a href="#">my project title</a></h4>
+                                        <h4><a href="#">Memory Match</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -343,10 +370,13 @@
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/4.jpg" data-lightbox="lightbox" data-title="my project title"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                <a href="images/portfolio/4.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                         </ul>
                                         <h4><a href="#">my project title</a></h4>
@@ -361,10 +391,13 @@
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/5.jpg" data-lightbox="lightbox" data-title="my project title"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                <a href="images/portfolio/5.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                         </ul>
                                         <h4><a href="#">my project title</a></h4>
@@ -379,10 +412,13 @@
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/6.jpg" data-lightbox="lightbox" data-title="my project title"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                                                <a href="images/portfolio/6.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                         </ul>
                                         <h4><a href="#">my project title</a></h4>
@@ -652,7 +688,7 @@
                     <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="info-box">
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            <p>Cell:(714) 473-2390</p>
+                            <p>(714) 473-2390</p>
                         </div>
                     </div>
                 </div>
