@@ -98,7 +98,9 @@ cbond-img{
     margin: auto;
 }
 
-
+p.myProject-desc {
+    font-size: 1.5vmin;
+}
 
 
 
