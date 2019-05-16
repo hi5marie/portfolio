@@ -1,17 +1,17 @@
 @charset "utf-8";
-/* CSS Document 
-Project Name: Collis    
-Version:  1.1 
+/* CSS Document
+Project Name: Collis
+Version:  1.1
 Created Date: Feb 20, 2018
 Primary use: Personal Portfolio, resume, cv.
 Author Name: Awesome_Theme (https://themeforest.net/user/awesome_theme)
 */
 
-/* 
+/*
 ---///---///--- TABLE OF CONTENT ---///---///---
 
 01. Imported Fonts
-02. General CSS 
+02. General CSS
         * Common CSS
         * Form CSS
         * Btn CSS
@@ -19,19 +19,19 @@ Author Name: Awesome_Theme (https://themeforest.net/user/awesome_theme)
         * Default Title CSS
         * Preloader CSS
         * Scroll To Top CSS
-03. Header CSS 
+03. Header CSS
 04. Welcome CSS
 05. Welcome two CSS
 06. About CSS
         * About Two CSS
 07. Service CSS
 08. Counter CSS
-09. Portfolio CSS  
-        * Item Hover CSS  
-10. Testimonial CSS 
+09. Portfolio CSS
+        * Item Hover CSS
+10. Testimonial CSS
 11. Blog CSS
         * Blog Single CSS
-        * Sidebar CSS  
+        * Sidebar CSS
 12. Contact CSS
 13. Page title CSS
 14. Footer CSS
@@ -50,7 +50,7 @@ Author Name: Awesome_Theme (https://themeforest.net/user/awesome_theme)
 
 
 /*---///---///---///---///---///---///---///---///---///---
-    02. General CSS 
+    02. General CSS
 ---///---///---///---///---///---///---///---///---///---*/
 
 body {
@@ -178,7 +178,7 @@ input:-moz-placeholder {
     border: none;
     border-radius: 0;
     color: #ffffff;
-    background: #96C346;
+    background: darkslategray;
     padding: 12px 30px;
     text-transform: uppercase;
     position: relative;
@@ -266,13 +266,24 @@ input:-moz-placeholder {
 .default-title {
     margin-bottom: 60px;
 }
-.default-title h2 {
+
+/*
+default-title h2 {
     font-size: 36px;
     line-height: 1.1;
     margin-bottom: 20px;
     text-transform: capitalize;
     font-weight: 800;
+}*/
+
+.default-title h2{
+    color: white;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: capitalize;
 }
+
 .default-title p {
     letter-spacing: 1px;
     font-weight: bold;
@@ -399,16 +410,16 @@ input:-moz-placeholder {
     width: 180px;
 }
 @keyframes load {
-100% {
-    opacity: 0;
-    transform: scale(1);
-}
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
 }
 @keyframes load {
-100% {
-    opacity: 0;
-    transform: scale(1);
-}
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
 }
 
 
@@ -431,7 +442,7 @@ input:-moz-placeholder {
     position: absolute;
     left: 0;
     bottom: 10px;
-    color: #96c346;
+    color: aqua;
     font-size: 45px;
 }
 
@@ -445,7 +456,7 @@ input:-moz-placeholder {
 
 
 /*---///---///---///---///---///---///---///---///---///---
-    03. Header CSS 
+    03. Header CSS
 ---///---///---///---///---///---///---///---///---///---*/
 .main-header {
     position: absolute;
@@ -454,7 +465,8 @@ input:-moz-placeholder {
     z-index: 999;
     width: 100%;
 }
-.main-nav {
+/*
+main-nav {
     background: transparent;
     border-bottom: none;
     padding-top: 15px;
@@ -465,7 +477,25 @@ input:-moz-placeholder {
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+}*/
+
+.main-nav {
+    background: black;
+    border-bottom: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
+
+
+
+
+
 .main-nav .navbar-nav {
     text-align: right;
     -webkit-transition: all 0.5s ease-in-out;
@@ -473,7 +503,7 @@ input:-moz-placeholder {
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-  }
+}
 .top-nav-collapse {
     background: #ffffff;
     -webkit-transition: all 0.5s ease-in-out;
@@ -538,16 +568,19 @@ input:-moz-placeholder {
     color: #111111;
 }
 .main-nav .navbar-nav>li>a:hover {
-    color: #96c346;
+    color: aqua;
+
 }
-.main-nav .navbar-nav>.active>a, 
-.main-nav .navbar-nav>.active>a:focus, 
+.main-nav .navbar-nav>.active>a,
+.main-nav .navbar-nav>.active>a:focus,
 .main-nav .navbar-nav>.active>a:hover {
     background: transparent;
-    color: #96c346;
+    color: aqua;
 }
 .navbar-nav>.active>a {
-    color: #96c346 !important;
+    color: aqua !important;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.63);
+
 }
 .main-nav .navbar-right {
     margin-right: 0;
@@ -589,8 +622,8 @@ input:-moz-placeholder {
 }
 @media screen and (max-width: 768px) {
     .sec-btm-style:after {
-        bottom: -170px; 
-    } 
+        bottom: -170px;
+    }
 }
 .welcome-col img {
     border: 4px solid #96c346;
@@ -628,10 +661,10 @@ input:-moz-placeholder {
     color: #f9f9f9;
     border: 1px solid #f9f9f9;
     -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-     -ms-border-radius: 50%;
-     -o-border-radius: 50%;
-     border-radius: 50%; 
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
 }
 .welcome-col ul li a i:hover {
     border-color: #96C346;
@@ -648,19 +681,19 @@ input:-moz-placeholder {
     z-index: 1;
     position: relative;
     height: 100vh;
- }
- .welcome-section-two.over-layer-black:before {
+}
+.welcome-section-two.over-layer-black:before {
     background: rgba(0, 0, 0, 0.5);
- }
+}
 .welcome-table {
     width: 100%;
     height: 100%;
     display: table;
 }
- .welcome-cell {
+.welcome-cell {
     vertical-align: middle;
     display: table-cell;
- }
+}
 
 
 
@@ -668,7 +701,7 @@ input:-moz-placeholder {
     06. About CSS
 ---///---///---///---///---///---///---///---///---///---*/
 .about-section {
-    
+
 }
 .about-col h2 {
     font-size: 36px;
@@ -698,7 +731,7 @@ input:-moz-placeholder {
 }
 /* About Two CSS */
 .about-two-section {
-    padding: 100px 0; 
+    padding: 100px 0;
 }
 .about-two-section .about-col img {
     border: 3px solid #cccccc;
@@ -754,7 +787,7 @@ input:-moz-placeholder {
     height: 90px;
     margin-left: -45px;
     line-height: 90px;
-    background: #96c346;
+    background: black;
     font-size: 50px;
     color: #ffffff;
     transition: all 500ms ease 0s;
@@ -766,7 +799,7 @@ input:-moz-placeholder {
     content: "";
     width: 111px;
     height: 111px;
-    border: 4px solid #96c346;
+    border: 4px solid aqua;
     position: absolute;
     top: -10px;
     left: -10px;
@@ -855,7 +888,7 @@ input:-moz-placeholder {
     margin-bottom: 30px;
 }
 .filtr-container {
-    
+
 }
 .portfolio-nav li {
     display: inline-block;
@@ -959,7 +992,7 @@ input:-moz-placeholder {
 }
 .portfolio-item-info .item-caption ul li {
     display: inline-block;
-    border-right: 2px solid #ffffff; 
+    border-right: 2px solid #ffffff;
     margin-right: 10px;
 }
 .portfolio-item-info .item-caption ul li:last-child {
@@ -999,7 +1032,7 @@ input:-moz-placeholder {
 ---///---///---///---///---///---///---///---///---///---*/
 .testimonial-section {
     background: #f5f5f5;
-    padding: 120px 0 120px; 
+    padding: 120px 0 120px;
     background: url(../images/bg/3.jpg);
 }
 .testimonial-section .default-title h2,
@@ -1188,7 +1221,7 @@ input:-moz-placeholder {
 }
 .blog-slide .blog-description {
     margin-bottom: 30px;
-} 
+}
 
 
 
@@ -1406,7 +1439,7 @@ input:-moz-placeholder {
     border: 1px solid #E6E6E6;
     margin-bottom: 10px;
     margin-right: 10px;
-    display: inline-block; 
+    display: inline-block;
     text-transform: uppercase;
     color: #676767;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1438,7 +1471,7 @@ input:-moz-placeholder {
     overflow: hidden;
 }
 .contact-sec.section-default {
-    
+
 }
 .contact-title {
     position: relative;
@@ -1541,7 +1574,7 @@ input:-moz-placeholder {
     14. Footer CSS
 ---///---///---///---///---///---///---///---///---///---*/
 .main-footer {
-    
+
 }
 
 /* COPY RIGHT CSS START */
@@ -1562,7 +1595,7 @@ input:-moz-placeholder {
     color: #96c346;
 }
 .social {
-    
+
 }
 .social li {
     display: inline-block;
