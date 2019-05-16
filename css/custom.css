@@ -70,19 +70,23 @@ service-icon i{
 
 
 
-.serviceBox .title{
+.serviceBox title{
     text-align: center;
     position: relative;
     /*margin-bottom: 80px;*/
-    margin: 60px 0px 0px 0px;
+    margin: 60px 20px 0 0;
     font-size: 5px;
-    padding: 10px;
+    padding: 10px 0;
     color: white;
 }
 
-.myTitle{
+#myTitle{
     display: inline-block;
     padding: 0;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 50px 15px 20px 0;
+    color: white;
 }
 
 .serviceBox {
@@ -102,31 +106,28 @@ service-icon i{
 .serviceBox .service-icon{
     position: absolute;
     /*left: 50%;*/
-    /*top: -45px;*/
+    top: -45px;
     /*margin-left: -45px;*/
-    height: 125px;
-    width: 125px;
+    width: 100px;
     line-height: 90px;
     background: white;
-    font-size: 70px;
-    /*color: #ffffff;*/
+    font-size: 60px;
+    color: #ffffff;
     transition: all 500ms ease 0s;
 
     left: 20px;
-    top: -30px;
     margin: 0;
 }
-.serviceBox .service-icon:after {
+.serviceBox .service-icon:after{
     position: absolute;
     content: "";
-    height: 125px;
-    width: 125px;
+    height: 165px;
+    width: 120px;
     border: 1px solid aqua;
-    color: black;
+    color: white;
 
-    left: -1px;
-    top: 1px;
-    /*top: -15px;*/
+    /*left: -1px;*/
+    top: -15px;
     margin: 0;
 
     opacity: 0;
