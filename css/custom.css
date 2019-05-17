@@ -28,21 +28,16 @@
     color: white;
 }
 
-about{
-    border: 1px solid lime;
-}
-
-
-
 .about-two-section, .about-col h2{
     background-color: black;
     color: white;
 }
 
 
-.my-text{
+#my-text{
     font-size: 15px;
-    color: aqua;
+    font-weight: normal;
+    padding-bottom: 15px;
 }
 
 .myProject-desc{
