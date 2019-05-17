@@ -18,20 +18,26 @@
     max-width: 70%;
 }
 
-.portfolio-section.section-default, .info-box{
+.portfolio-section.section-default{
     background-color: black;
     color: white;
 }
 
-about{
-    border: 1px solid lime;
+.info-box{
+    background-color: dimgrey;
+    color: white;
 }
-
-
 
 .about-two-section, .about-col h2{
     background-color: black;
     color: white;
+}
+
+
+#my-text{
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 15px;
 }
 
 .myProject-desc{
@@ -57,6 +63,15 @@ p.myProject-desc {
 
 mySkills{
     background: deeppink;
+}
+
+.simple-default-btn{
+    background-color: #424242;
+    color: white;
+}
+.simple-default-btn.btn-black{
+    background-color: dimgrey;
+    color: darkgrey;
 }
 
 .service-section.section-default{
@@ -136,9 +151,10 @@ service-icon i{
     /*margin: 0px 0px 30px -20px;*/
 }
 
-contact{
-    background-color: black;
+#contact, .contact-sec.section-default{
+    background-color: darkgray;
 }
+
 
 @media screen and (min-width: 992px){
     div.col-md-4 {
