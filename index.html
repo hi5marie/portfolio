@@ -37,14 +37,13 @@
     <link href="css/animate.css" rel="stylesheet">
     <!-- YTPlayer CSS -->
     <link href="css/jquery.mb.YTPlayer.min.css" rel="stylesheet">
-
-
+    
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet">
-    
+    <!-- My CSS -->
     <link href="css/custom.css" rel="stylesheet">
     
     
@@ -90,13 +89,18 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <div class="navbar-brand">
-                                    <a class="logo-black myHeading" href="index.html">
+                                 
+                                 <!--Hide <a class="logo-black" href="index.html"><img src="images/logo.png" alt=""></a>
+                                    <a class="logo-white" href="index.html"><img src="images/logo-white.png" alt=""></a>
+                                 Hidden-->
+                                    
+                                    <a class="logo-black myHeading" href="index.html">TERRADO
                                         <div class="logo-terrado">TERRADO</div>
                                     </a>
-                                    <a class="logo-white myHeading" href="index.html">
+                                    <a class="logo-white myHeading" href="index.html">TERRADO
                                         <div class="logo-terrado"></div>
-
                                     </a>
+
                                 </div>
                             </div>
 
@@ -136,13 +140,20 @@
 
     <!-- Welcome two Section -->
     <div class="welcome-section welcome-section-two jarallax over-layer-black" id="water-ripples">
-       <div class="welcome-table my-background">
+       <div class="welcome-table">
+           
            <div class="welcome-cell">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="welcome-col text-center">
+                                
+                                <h1>Hi, I'm <span>Marie Terrado</span></h1>
+                                
+                                /* Removed span tag
                                 <h1>Marie Christine Terrado</h1>
+                                */
+                                
                                 <h3 class="cd-headline clip">
                                     <span class="cd-words-wrapper">
                                         <b class="is-visible">I am a web Developer</b>
@@ -232,21 +243,37 @@
                         
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 2" data-sort="value">
                             <div class="portfolio-item">
+    
+                             <!--Hide
+                                <img src="images/portfolio/1.jpg" class="img-responsive" alt="portfolio">
+                             Hidden-->
                                 
                                 <img src="images/screenshort/cbond-img.png" class="img-responsive my-projectImages" alt="portfolio">
                                 
                                 <div class="portfolio-item-info">
+                                    
                                     <div class="item-caption">
                                         <ul>
                                             <li>
+    
+                                            <!--Hide
+                                                <a href="images/portfolio/1.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                </a>
+                                            hidden-->
+    
                                                 <a href="images/screenshort/cbond-img.png" data-lightbox="lightbox" data-title="my project title">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
+                                                
                                             </li>
                                             <li>
                                                 <a href="http://cbond.hi5marie.com"><i class="fa fa-link" aria-hidden="true"></i></a>
                                             </li>
                                         </ul>
+    
+                                     <!--Hide    <h4><a href="#">my project title</a></h4> hidden-->
+    
                                         <h4><a href="#">cBond</a></h4>
                                         
                                         <p class="myProject-desc">A 3-tier application that utilizes React and Axios, PHP, and
@@ -785,8 +812,12 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="about-col col-default">
+                        
+                        <!-- Added alt and id -->
                         <img src="images/screenshort/me-img.JPG" alt="My Picture" id="myPicture">
+                        
                     </div>
+                    
                 </div>
                 <div class="col-md-7">
                     <div class="about-col col-default">

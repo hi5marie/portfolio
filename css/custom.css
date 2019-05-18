@@ -1,3 +1,28 @@
+main-demo-heading, .welcome-section{
+    background: url(../images/screenshort/codebackground.png);
+}
+
+welcome-section {
+    padding: 220px 0 0;
+    position: relative;
+    background-image: url(../images/screenshort/backgroundcode.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+welcome-section-two {
+    padding-top: 0;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    height: 78vh;
+}
+
+
+
+
+
 .welcome-section-two{
     background-size: cover;
     background-position: center;
@@ -58,7 +83,12 @@ p.myProject-desc {
 }
 
 .default-title h2{
+    color: white;
+    font-size: 40px;
     font-weight: normal;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: capitalize;
 }
 
 mySkills{
@@ -151,10 +181,363 @@ service-icon i{
     /*margin: 0px 0px 30px -20px;*/
 }
 
+/* move below */
+
 #contact, .contact-sec.section-default{
     background-color: darkgray;
 }
 
+.simple-default-btn:hover {
+    color: #ffffff;
+    background: #111111;
+    z-index: 1;
+    /*border-color: #6AB4FF;*/
+
+    border-color: rgba(7,235,235,0.79);
+
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#loader .dot:nth-child(7n+1)::before {
+    animation: 0.8s linear 0.1s normal none infinite running load;
+    /*background: #00ff80 none repeat scroll 0 0;*/
+    background: darkblue none repeat scroll 0 0;
+}
+
+#dyscrollup-btn:before {
+    content: "\f0aa";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    /*color: #96C346;*/
+    color: midnightblue;
+
+    font-size: 45px;
+}
+
+.logo-white {
+    display: block;
+    /*font-size: 40px;*/
+}
+
+.main-nav .navbar-nav>.active>a,
+.main-nav .navbar-nav>.active>a:focus,
+.main-nav .navbar-nav>.active>a:hover {
+    background: transparent;
+    /*color: #96C346;*/
+    color: aqua;
+}
+
+.navbar-nav>.active>a {
+    /*color: #96c346 !important;*/
+    color: aqua !important;
+
+}
+
+.welcome-col img {
+    /*border: 4px solid #96c346;*/
+    border: 4px solid darkred;
+
+    position: relative;
+    z-index: 2;
+}
+
+.welcome-col h1 span {
+    /*color: #96c346;*/
+    color: aqua;
+
+}
+
+.welcome-col ul li a i:hover {
+    /*border-color: #96C346;*/
+    /*background: #96C346;*/
+
+    border-color: aqua;
+    background: red;
+
+    color: #ffffff;
+}
+
+.about-section .progress-bar {
+    /*background-color: #96C346;*/
+    background-color: aqua;
+
+    height: 5px;
+    border-radius: 0;
+}
+
+.serviceBox .service-icon{
+    position: absolute;
+    left: 50%;
+    top: -45px;
+    width: 90px;
+    height: 90px;
+    margin-left: -45px;
+    line-height: 90px;
+    /*background: #96c346;*/
+    background: white;
+
+/* added this    border: 3px solid black; */
+
+    font-size: 50px;
+    color: #ffffff;
+    transition: all 500ms ease 0s;
+}
+
+.serviceBox .service-icon:after{
+    content: "";
+    width: 111px;
+    height: 111px;
+    /*border: 4px solid #96c346;*/
+    border: 4px solid grey;
+
+
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    opacity: 0;
+    transform: scale(0.8, 0.8);
+    transition: all 500ms ease 0s;
+}
+
+.counter-sec .counter-box .counter {
+    position: relative;
+    z-index: 2;
+    /*color: #96c346;*/
+    color: aqua;
+
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.portfolio-nav li:hover {
+    /*color: #96c346;*/
+    color: aqua;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.portfolio-item-info .item-caption i {
+    /*color: #96C346;*/
+    color: aqua;
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+.testimonial-item-content span {
+    /*color: #96C346;*/
+    color: aqua;
+
+    font-size: 12px;
+}
+
+
+.slick-dots li button:before {
+    content: "";
+    font-size: 0;
+    width: 30px;
+    height: 5px;
+    /*background: #96C346;*/
+    background: aqua;
+}
+
+.blog-slide .blog-info li i{
+    margin-right: 8px;
+    /*color: #96c346;*/
+    color: aqua;
+}
+
+.blog-slide .blog-info li a:hover{
+    /*color: #96c346;*/
+    color: aqua;
+    text-decoration: none;
+}
+
+.blog-slide .read:hover{
+    text-decoration: none;
+    /*color: #96c346;*/
+    color: aqua;
+}
+
+.blog-slide .blog-author{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    right: 10px;
+    overflow: hidden;
+    /*border:3px solid #96c346;*/
+    border: 3px solid lime;
+}
+
+.blog-slide h3 a {
+    /*color: #96c346;*/
+    color: aqua;
+    letter-spacing: 1px;
+}
+
+.blog-details-area .blog-date ul li i {
+    margin-right: 5px;
+    /*color: #96c346;*/
+    color: aqua;
+}
+
+.highlight-text {
+    padding: 20px;
+    background: #F5F5F5;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /*border-left: 3px solid #96c346;*/
+    border-left: 3px solid aqua;
+}
+
+.comment-item a i {
+    /*color: #96c346;*/
+    color: aqua;
+}
+
+.sidebar-search .input-group-btn .btn {
+    border-radius: 0;
+    height: 50px;
+    width: 60px;
+    /*background: #96c346;*/
+    background: aqua;
+}
+
+.categories ul li:hover a {
+    /*color: #96c346;*/
+    color: blue;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.buy-btn:hover {
+    /*background: #96c346;*/
+    background: aqua;
+    color: #ffffff;
+    /*border-color: #96c346;*/
+    border-color: aqua;
+}
+
+.demo-list-page h5 {
+    margin-bottom: 80px;
+    /*color: #96c346;*/
+    color: darkred;
+
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+
+/* check above */
+
+.main-nav {
+    background: black;
+    border-bottom: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.main-nav .navbar-nav>li>a:hover {
+    /*color: #96C346;*/
+
+    color: aqua;
+}
+
+.navbar-nav>.active>a {
+    color: aqua !important;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.63);
+
+}
+
+.welcome-section.sec-btm-style:after {
+    height: 200;
+}
+
+.about-section {
+
+}
+
+.service-section {
+    /*background: url(../images/bg/pattern.png);*/
+    background: #f6f6f6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.serviceBox .service-icon{
+    position: absolute;
+    left: 50%;
+    top: -45px;
+    width: 90px;
+    height: 90px;
+    margin-left: -45px;
+    line-height: 90px;
+    /*background: #96c346;*/
+    font-size: 50px;
+    color: #ffffff;
+    transition: all 500ms ease 0s;
+}
+
+.serviceBox .service-icon:after{
+    content: "";
+    width: 111px;
+    height: 111px;
+    /*border: 4px solid aqua;*/
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    opacity: 0;
+    transform: scale(0.8, 0.8);
+    transition: all 500ms ease 0s;
+}
+
+.serviceBox .description{
+}
+
+.filtr-container {
+
+}
+
+.contact-sec.section-default {
+
+}
+
+/*.contact-title h2:after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #1d1d1d;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}*/
+
+.social {
+
+}
 
 @media screen and (min-width: 992px){
     div.col-md-4 {
