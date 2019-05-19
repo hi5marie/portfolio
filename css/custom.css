@@ -165,7 +165,7 @@ service-icon i{
     content: "";
     height: 165px;
     width: 120px;
-    border: 1px solid aqua;
+    /*border: 1px solid aqua;*/
     color: white;
 
     /*left: -1px;*/
@@ -522,15 +522,15 @@ service-icon i{
 
 }
 
-/*.contact-title h2:after {
+.contact-title h2:after {
     content: "";
     width: 30px;
     height: 2px;
     background: #1d1d1d;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: -5px;
-}*/
+}
 
 .social {
 
