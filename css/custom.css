@@ -270,6 +270,7 @@ service-icon i{
 .welcome-col h1 span {
     /*color: #96c346;*/
     color: aqua;
+    font-size: 50px;
 
 }
 
