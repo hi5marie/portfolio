@@ -44,8 +44,25 @@ welcome-section-two{
 }
 
 #myPicture{
-    max-width: 70%;
+    max-width: 25%;
+    /*border-radius: 300px;*/
+    /*height: 225px;*/
+    height: auto;
+    padding-top: 25px;
 }
+
+
+
+.welcome-col img {
+    /*border: 4px solid #96c346;*/
+    border: 1px solid black;
+    width: 235px;
+
+    position: relative;
+    z-index: 2;
+}
+
+
 
 .portfolio-section.section-default{
     background-color: black;
@@ -242,14 +259,6 @@ service-icon i{
     /*color: #96c346 !important;*/
     color: aqua !important;
 
-}
-
-.welcome-col img {
-    /*border: 4px solid #96c346;*/
-    border: 4px solid darkred;
-
-    position: relative;
-    z-index: 2;
 }
 
 .welcome-col h1 span {
@@ -549,8 +558,8 @@ service-icon i{
 
 @media screen and (min-width: 992px){
     div.col-md-4 {
-        width: 20%;
-        margin: auto;
-        left: 20px;
+        width: 25%;
+        /*margin: auto;*/
+        /*left: 20px;*/
     }
 }
