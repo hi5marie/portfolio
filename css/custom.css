@@ -1,9 +1,12 @@
-main-demo-heading, .welcome-section{
+main-demo-heading, welcome-section{
     background: url(../images/screenshort/codebackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-welcome-section {
-    padding: 220px 0 0;
+.welcome-section {
+    padding: 75px 0 0;
     position: relative;
     background-image: url(../images/screenshort/backgroundcode.png);
     background-size: cover;
@@ -11,8 +14,10 @@ welcome-section {
     background-repeat: no-repeat;
 }
 
-welcome-section-two {
-    padding-top: 0;
+.welcome-section-two {
+    padding-top: 60px;
+
+    /*padding-top: 0;*/
     background-size: cover;
     z-index: 1;
     position: relative;
@@ -20,14 +25,16 @@ welcome-section-two {
 }
 
 
-.welcome-section-two{
+welcome-section-two{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../images/screenshort/backgroundcode.png);
-    padding: 220px 0 0;
+    /*padding: 220px 0 0;*/
 
 }
+
+
 
 .logo-terrado{
     color: white;
@@ -445,8 +452,12 @@ service-icon i{
 .main-nav {
     background: black;
     border-bottom: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    /*padding-top: 15px;*/
+    /*padding-bottom: 15px;*/
+
+
     margin-bottom: 0;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
