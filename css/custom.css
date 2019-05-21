@@ -99,7 +99,13 @@ welcome-section-two{
     margin-left: 45px;
 }
 
-p.myProject-desc {
+.portfolio-item img{
+    height: 275px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+myProject-desc {
     font-size: 1.5vmin;
 }
 
@@ -108,7 +114,7 @@ p.myProject-desc {
     font-size: 40px;
     font-weight: normal;
     line-height: 1.1;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-transform: capitalize;
 }
 
