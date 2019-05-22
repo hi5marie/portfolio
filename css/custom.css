@@ -109,6 +109,10 @@ myProject-desc {
     font-size: 1.5vmin;
 }
 
+.default-title{
+    margin-
+}
+
 .default-title h2{
     color: white;
     font-size: 40px;
@@ -270,7 +274,7 @@ service-icon i{
 .welcome-col h1 span {
     /*color: #96c346;*/
     color: aqua;
-    font-size: 50px;
+    font-size: 45px;
 
 }
 
