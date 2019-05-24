@@ -6,7 +6,10 @@ main-demo-heading, welcome-section{
 }
 
 .welcome-section {
+    /*padding: 220px 0 0;*/
+
     padding: 75px 0 0;
+
     position: relative;
     background-image: url(../images/screenshort/backgroundcode.png);
     background-size: cover;
