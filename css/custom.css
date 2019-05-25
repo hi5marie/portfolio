@@ -47,11 +47,9 @@ welcome-section-two{
 }
 
 #myPicture{
-    max-width: 25%;
+    max-width: 50%;
     /*border-radius: 300px;*/
     /*height: 225px;*/
-    height: auto;
-    padding-top: 25px;
 }
 
 
