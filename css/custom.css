@@ -6,7 +6,10 @@ main-demo-heading, welcome-section{
 }
 
 .welcome-section {
+    /*padding: 220px 0 0;*/
+
     padding: 75px 0 0;
+
     position: relative;
     background-image: url(../images/screenshort/backgroundcode.png);
     background-size: cover;
@@ -44,11 +47,9 @@ welcome-section-two{
 }
 
 #myPicture{
-    max-width: 25%;
+    max-width: 50%;
     /*border-radius: 300px;*/
     /*height: 225px;*/
-    height: auto;
-    padding-top: 25px;
 }
 
 
@@ -107,6 +108,10 @@ welcome-section-two{
 
 myProject-desc {
     font-size: 1.5vmin;
+}
+
+.default-title{
+    margin-
 }
 
 .default-title h2{
@@ -270,7 +275,7 @@ service-icon i{
 .welcome-col h1 span {
     /*color: #96c346;*/
     color: aqua;
-    font-size: 50px;
+    font-size: 45px;
 
 }
 
