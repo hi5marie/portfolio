@@ -46,12 +46,33 @@ welcome-section-two{
 
 }
 
+
 #myPicture{
-    max-width: 50%;
-    /*border-radius: 300px;*/
-    /*height: 225px;*/
+    width: auto;
+    margin: auto;
 }
 
+@media screen and (min-width: 601px){
+    #myPicture{
+        padding: 100px;
+    }
+}
+@media screen and (max-width: 601px){
+    #myPicture{
+        padding: 60px;
+    }
+}
+
+myPicture{
+    /*height: 80%;*/
+    /*width: 80%;*/
+    height: 400px;
+    width: 345px;
+}
+
+.about-two-section .about-col img {
+     border: none;
+}
 
 
 .welcome-col img {
@@ -130,6 +151,10 @@ mySkills{
 .simple-default-btn{
     background-color: #424242;
     color: white;
+    /*margin-left: 35px;*/
+    /*margin: 20px;*/
+    /*padding: 12px 46px;*/
+
 }
 .simple-default-btn.btn-black{
     background-color: dimgrey;
