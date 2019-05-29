@@ -115,18 +115,18 @@ myPicture{
     color: white;
 }
 
-/*.my-projectImages, .portfolio-item img{*/
-    /*height: 275px;*/
-    /*width: 100%;*/
-    /*margin-left: 45px;*/
-/*}*/
+.my-projectImages, .portfolio-item img{
+    height: 275px;
+    width: 100%;
+    margin-left: 40px;
+}
 
 
 
 .portfolio-item img{
     height: 275px;
     width: 100%;
-    margin-left: 40px;
+    /*margin-left: 40px;*/
 }
 
 myProject-desc {
@@ -607,4 +607,8 @@ service-icon i{
 .backTo-top{
     font-size: 40px;
     display: none;
+}
+
+.cd-headline{
+    padding: 20px;
 }
