@@ -5,10 +5,8 @@ main-demo-heading, welcome-section{
     background-repeat: no-repeat;
 }
 
-.welcome-section {
+welcome-section {
     /*padding: 220px 0 0;*/
-
-    padding: 75px 0 0;
 
     position: relative;
     background-image: url(../images/screenshort/backgroundcode.png);
@@ -17,9 +15,8 @@ main-demo-heading, welcome-section{
     background-repeat: no-repeat;
 }
 
-.welcome-section-two {
+welcome-section-two {
     padding-top: 60px;
-
     /*padding-top: 0;*/
     background-size: cover;
     z-index: 1;
@@ -28,9 +25,9 @@ main-demo-heading, welcome-section{
 }
 
 
-welcome-section-two{
+.welcome-section-two{
     background-size: cover;
-    background-position: center;
+    /*background-position: center;*/
     background-repeat: no-repeat;
     background-image: url(../images/screenshort/backgroundcode.png);
     /*padding: 220px 0 0;*/
@@ -38,14 +35,27 @@ welcome-section-two{
 }
 
 
+navContainer{
+    border: 1px solid red;
+    background-color: black;
+}
 
 .logo-terrado{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     text-shadow: 0px 0px 24px rgba(0, 5, 6, 0), 2px 0px 5px rgba(9, 0, 0, 1);
+    margin-top: 5px;
 
 }
 
+.logo2-terrado{
+    color: rgba(117, 8, 8, 0.94);
+    font-size: 30px;
+    box-sizing: border-box;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 5px;
+
+}
 
 #myPicture{
     width: auto;
@@ -63,12 +73,6 @@ welcome-section-two{
     }
 }
 
-myPicture{
-    /*height: 80%;*/
-    /*width: 80%;*/
-    height: 400px;
-    width: 345px;
-}
 
 .about-two-section .about-col img {
      border: none;
@@ -163,10 +167,22 @@ mySkills{
     color: darkgrey;
 }
 
-.service-section.section-default{
+.service-section, .section-default{
     background-color: black;
     padding: 120px 0 40px;
 }
+
+service-section {
+    /*background: url(../images/bg/pattern.png);*/
+    background: #f6f6f6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
 
 service-icon i{
     font-size: 70px;
@@ -280,10 +296,6 @@ myTitle{
     font-size: 45px;
 }
 
-.logo-white {
-    display: block;
-    /*font-size: 40px;*/
-}
 
 .main-nav .navbar-nav>.active>a,
 .main-nav .navbar-nav>.active>a:focus,
@@ -302,8 +314,21 @@ myTitle{
 .welcome-col h1 span {
     /*color: #96c346;*/
     color: crimson;
-    font-size: 45px;
+    /*font-size: 45px;*/
+}
 
+@media screen and (min-width: 601px){
+    div.welcome-col h1 span{
+        font-size: 45px;
+
+    }
+}
+
+@media screen and (max-width: 601px){
+    div.welcome-col h1 span{
+        font-size: 45px;
+
+    }
 }
 
 .welcome-col ul li a i:hover {
@@ -495,7 +520,6 @@ myTitle{
 }
 
 
-
 /* check above */
 
 .main-nav {
@@ -503,8 +527,8 @@ myTitle{
     border-bottom: none;
     padding-top: 5px;
     padding-bottom: 0;
-    /*padding-top: 15px;*/
-    /*padding-bottom: 15px;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 
     margin-bottom: 0;
@@ -528,21 +552,13 @@ myTitle{
 }
 
 .welcome-section.sec-btm-style:after {
-    height: 200;
+    height: 200px;
 }
 
 .about-section {
 
 }
 
-.service-section {
-    /*background: url(../images/bg/pattern.png);*/
-    background: #f6f6f6;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
 
 .serviceBox .service-icon{
     position: absolute;
@@ -613,9 +629,17 @@ myTitle{
     padding: 20px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 601px){
     .full-wd600 {
          width: 50%;
         margin: auto;
     }
 }
+
+.main-footer{
+    display: none;
+}
+
+/*@media screen and (max-width: 601px){*/
+    /**/
+/*}*/
