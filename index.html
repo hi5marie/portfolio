@@ -195,80 +195,80 @@
     
     <!-- Portfolio Section -->
     <section class="portfolio-section section-default" id="work">
-        <div class="container">
+        <div class="container" id="portfolioContainer">
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                    <div class="default-title text-center"><h2>Portfolio</h2></div>
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2" id="myPortfolio-column">
+                    <div class="default-title text-center">
+                        <h2>Portfolio</h2>
+                    </div>
                 </div>
             </div>
+    
+            <!-- Hide Filter Nav -->
+            <!--<ul class="portfolio-nav" style="background-color: lightgreen">-->
+                <!--<li data-filter="all"> All </li>-->
+                <!--<li data-filter="1"> Web Design </li>-->
+                <!--<li data-filter="2"> Grapich </li>-->
+                <!--<li data-filter="3"> Mobile app </li>-->
+            <!--</ul>-->
             
             <div class="row">
                 <div class="portfolio-col">
-                    
-                    <!-- Hide Filter Nav
-                    <ul class="portfolio-nav">
-                        <li data-filter="all"> All </li>
-                        <li data-filter="1"> Web Design </li>
-                        <li data-filter="2"> Grapich </li>
-                        <li data-filter="3"> Mobile app </li>
-                    </ul>
-                    Hidden Filter Nav-->
-                    
                     
                     <!-- Filter Content -->
                     <div class="filtr-container">
                         
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 2" data-sort="value">
-                            <div class="portfolio-item">
+                            <div class="portfolio-item" style="border: 1px solid rebeccapurple">
+                                <img src="images/screenshort/cbond-img.png" class="img-responsive" alt="portfolio">
                                 
-                                <img src="images/screenshort/cbond-img.png" class="img-responsive my-projectImages" alt="portfolio">
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/screenshort/cbond-img.png" data-lightbox="lightbox" data-title="my project title">
+                                                <a href="images/screenshort/cbond-img.png" data-lightbox="lightbox" data-title="cBond">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="http://cbond.hi5marie.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                                <a href="http://cbond.hi5marie.com" target="_blank">
+                                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                                </a>
                                             </li>
                                         </ul>
-                                        <h4><a href="#">cBond</a></h4>
-                                        <p class="myProject-desc">A 3-tier application that utilizes React and Axios, PHP, and
-                                            MySQL to provide a nearly full ecommerce solution. It utilizes components for products,
-                                            lists, details, cart, and purchases, as well as routing to display the proper component
-                                            at the right time. The server has data sanitization and error handling for all of its endpoints.
+                                        <h4>
+                                            <a href="#">cBond</a>
+                                        </h4>
+                                        <p class="myProject-desc">A 3-tier application that utilizes React and Axios,
+                                            PHP, and MySQL to provide a nearly full ecommerce solution. It utilizes
+                                            components for products, lists, details, cart, and purchases, as well as
+                                            routing to display the proper component at the right time. The server has
+                                            data sanitization and error handling for all of its endpoints.
                                         </p>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                         
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 1" data-sort="value">
-                            <div class="portfolio-item">
-                                
-                                <img src="images/screenshort/find-flix.png" class="img-responsive my-projectImages" alt="portfolio">
+                            <div class="portfolio-item" style="border:1px solid red">
+                                <img src="images/screenshort/findFlix_img.png" class="img-responsive" alt="portfolio" id="myProjectImage">
                                 
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/screenshort/findFlix_img.png" data-lightbox="lightbox" data-title="my project title">
+                                                <a href="images/screenshort/findFlix_img.png" data-lightbox="lightbox" data-title="findFlix">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
                                             </li>
-                                            
                                             <li>
-                                                
-                                                <!--<a href="c1018_hackathon2" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>-->
-                                                
+                                                <a href="http://hi5marie.com/c1018_hackathon2/" target="_blank">
+                                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                                </a>
                                             </li>
-                                            
                                         </ul>
                                         <h4><a href="#">findFlix</a></h4>
-                                        
                                         <p class="myProject-desc">Web Web app using HTML CSS, JS, jQuery, Asynchronous data calls through
                                             AJAX and using JSON. Accesses Google Maps and Google places api for location services and
                                             business information, Youtube api for video links and information for trailers, and
@@ -276,7 +276,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                         
@@ -289,7 +288,7 @@
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/screenshort/memoryMatch-img.png" data-lightbox="lightbox" data-title="my project title">
+                                                <a href="images/screenshort/memoryMatch-img.png" data-lightbox="lightbox" data-title="Memory Match">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
                                             </li>
@@ -655,7 +654,7 @@
                         
                         <!-- Hide below
                         <h3>My Skills</h3>
-                        <a href="#service"><h3 id="my-text">SEE MY SKILLS</h3>
+                        <a href="#service"><h3 id="seeSkills">SEE MY SKILLS</h3>
                         </a> -->
                         
                         
