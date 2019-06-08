@@ -290,24 +290,25 @@ mySkills{
 
 #myIcons{
     border: 1px solid red;
-    /*background-color: #1d1d1d;*/
+    background-color: dimgrey;
 }
 
 /* // Below bootstrap Service CSS section icons // */
-/*@media only screen and (min-width: 601px){*/
-/*.full-wd600 {*/
-/*width: 25%;*/
-/*margin: auto;*/
-/*}*/
-/*}*/
 
-/*@media only screen and (max-width: 601px){*/
-/*.full-wd600 {*/
-/*width: 50%;*/
-/*!*margin: 0px -35px 0px 10px;*!*/
-/*margin: 0 -60px 0 20px;*/
-/*}*/
-/*}*/
+@media only screen and (min-width: 601px){
+    .full-wd600 {
+    width: 25%;
+    margin: auto;
+    }
+}
+
+@media only screen and (max-width: 601px){
+    .full-wd600 {
+    width: 50%;
+    /*margin: 0px -35px 0px 10px;*/
+    /*margin: 0 -60px 0 20px;*/
+    }
+}
 
 
 #contact, .contact-sec.section-default{
@@ -325,10 +326,9 @@ mySkills{
     position: relative;
 }
 
-.service-section, .section-default{
+.service-section.section-default{
     background-color: black;
-    /*padding: 120px 0 40px;*/
-    padding: 10px 0 40px;
+    padding: 120px 0 0;
 }
 
 .service-section .default-title {
@@ -343,18 +343,12 @@ serviceBox {
     padding: 70px 20px 40px;
 }
 .serviceBox {
-    /*border: 0.5px solid purple;*/
+    /*border: 0.5px solid orange;*/
     background-color: #1d1d1d;
-    padding: 40px 0px 0px;
-    /*margin-bottom: 75px;*/
+    /*background-color: lightblue;*/
+    /*margin-bottom: 70px;*/
+    padding: 30px 0;
 }
-
-service-icon, serviceIcon{
-    font-size: 30px;
-    border: 1px solid lime;
-/*background-color: black;*/
-}
-
 
 /* // Below original // */
 serviceBox service-icon{
@@ -372,13 +366,9 @@ serviceBox service-icon{
 }
 /* // Below changed // */
 .serviceBox .service-icon{
-    font-size: 55px;
-    height: 90px;
-    /*width: 90px;*/
+    border: 1px solid yellow;
     background: white;
-    /*color: #ffffff;*/
-    /*transition: all 500ms ease 0s;*/
-    top: -35px;
+    /*background-color: black;*/
 
 }
 
@@ -388,7 +378,8 @@ serviceBox:hover service-icon{
 }
 
 .serviceBox:hover .service-icon{
-    transform: scale(0.5, 0.5);
+    transform: scale(0.7, 0.7);
+    border: 1px solid deepskyblue;
 }
 
 /* // Below original // */
@@ -404,51 +395,40 @@ serviceBox service-icon:after{
     transform: scale(0.8, 0.8);
     transition: all 500ms ease 0s;
 }
-
 .serviceBox .service-icon:after{
-    /*position: absolute;*/
-    /*content: "";*/
-    /*height: 130px;*/
-    border: 4px solid grey;
-    /*color: white;*/
-
-    /*left: -1px;*/
-    /*top: -15px;*/
-    /*margin: 0;*/
-    /*opacity: 0;*/
-    transform: scale(1.0, 1.0);
-    /*transition: all 500ms ease 0s;*/
-    /*!*margin: 0px 0px 30px -20px;*!*/
+    border: 4px solid aqua;
+    transform: scale(0.5, 0.5);
 }
 
 .serviceBox:hover .service-icon:after{
     opacity: 1;
-    transform: scale(0.9, 0.9);
+    /*transform: scale(0.8, 0.8);*/
+
+    transform: scale(0.2, 0.2);
+    border: 1px solid deeppink;
 }
-/*.serviceBox .number{*/
-    /*font-family: 'Lobster', cursive;*/
-    /*font-size: 60px;*/
-    /*opacity: 0.150;*/
-    /*position: absolute;*/
-    /*top: 20%;*/
-    /*left: 20%;*/
-    /*z-index: 0;*/
-/*}*/
+.serviceBox .number{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    opacity: 0.150;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 0;
+    border: 3px solid darkred;
+}
 
 
-/* // original css below // */
-/*serviceBox title{*/
+/*.serviceBox .title{*/
     /*font-size: 20px;*/
     /*margin: 0 0 10px 0;*/
 /*}*/
-
 .serviceBox .title{
     font-size: 15px;
-    margin: -2px 0 10px 0;
-
-    text-align: center;
-    position: relative;
-    color: white;
+    /*margin: -2px 0 10px 0;*/
+    /*text-align: center;*/
+    /*position: relative;*/
+    color: blue;
     /*border: 1px solid grey;*/
 }
 
@@ -764,13 +744,13 @@ portfolio-item img{
 }
 
 
-myTitle{
-    display: inline-block;
+#myTitle{
     padding: 0;
     font-size: 15px;
     font-weight: normal;
-    margin: 50px 15px 20px 0;
+    /*margin: 50px 15px 20px 0;*/
     color: white;
+    /*border: 5px solid darkorchid;*/
 }
 
 
@@ -857,3 +837,9 @@ myTitle{
 /*}*/
 
 
+/*@media screen and (min-width: 768px){*/
+    /*div.full-wd600 {*/
+        /*border: 1px solid yellow;*/
+        /*width: 25%;*/
+    /*}*/
+/*}*/
