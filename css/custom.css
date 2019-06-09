@@ -290,7 +290,17 @@ mySkills{
 
 #myIcons{
     border: 1px solid red;
-    background-color: dimgrey;
+    /*background-color: dimgrey;*/
+}
+
+
+#myTitle, .icon_name{
+    padding: 0;
+    font-size: 15px;
+    font-weight: normal;
+    /*margin: 50px 15px 20px 0;*/
+    color: white;
+    /*border: 4px solid green;*/
 }
 
 /* // Below bootstrap Service CSS section icons // */
@@ -306,7 +316,7 @@ mySkills{
     .full-wd600 {
     width: 50%;
     /*margin: 0px -35px 0px 10px;*/
-    /*margin: 0 -60px 0 20px;*/
+    margin: 0 -60px 0 20px;
     }
 }
 
@@ -344,10 +354,10 @@ serviceBox {
 }
 .serviceBox {
     /*border: 0.5px solid orange;*/
-    background-color: #1d1d1d;
-    /*background-color: lightblue;*/
-    /*margin-bottom: 70px;*/
-    padding: 30px 0;
+    /*background-color: #1d1d1d;*/
+    background-color: black;
+    padding: 45px 0 0;
+    /*padding: 20px 0 0;*/
 }
 
 /* // Below original // */
@@ -366,9 +376,9 @@ serviceBox service-icon{
 }
 /* // Below changed // */
 .serviceBox .service-icon{
-    border: 1px solid yellow;
-    background: white;
-    /*background-color: black;*/
+    border-radius: 5px;
+    /*background: white;*/
+    background-color: black;
 
 }
 
@@ -378,8 +388,9 @@ serviceBox:hover service-icon{
 }
 
 .serviceBox:hover .service-icon{
-    transform: scale(0.7, 0.7);
-    border: 1px solid deepskyblue;
+    transform: scale(1.5, 1.5);
+    /*border: 1px solid yellow;*/
+    background-color: white;
 }
 
 /* // Below original // */
@@ -398,16 +409,19 @@ serviceBox service-icon:after{
 .serviceBox .service-icon:after{
     border: 4px solid aqua;
     transform: scale(0.5, 0.5);
+
 }
 
 .serviceBox:hover .service-icon:after{
-    opacity: 1;
-    /*transform: scale(0.8, 0.8);*/
+    /*opacity: 1;*/
+    opacity: 0;
 
-    transform: scale(0.2, 0.2);
-    border: 1px solid deeppink;
+    transform: scale(0.6, 0.6);
+    border: 1px solid purple;
+    background-color: black;
+
 }
-.serviceBox .number{
+serviceBox number{
     font-family: 'Lobster', cursive;
     font-size: 60px;
     opacity: 0.150;
@@ -428,7 +442,7 @@ serviceBox service-icon:after{
     /*margin: -2px 0 10px 0;*/
     /*text-align: center;*/
     /*position: relative;*/
-    color: blue;
+    /*color: blue;*/
     /*border: 1px solid grey;*/
 }
 
@@ -742,17 +756,6 @@ portfolio-item img{
     background-color: black;
     color: white;
 }
-
-
-#myTitle{
-    padding: 0;
-    font-size: 15px;
-    font-weight: normal;
-    /*margin: 50px 15px 20px 0;*/
-    color: white;
-    /*border: 5px solid darkorchid;*/
-}
-
 
 .over-layer-white:before {
     /*content: "";*/
