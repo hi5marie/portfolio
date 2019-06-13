@@ -255,11 +255,11 @@ navContainer{
 }
 
 /* Default Title CSS */
-
 .default-title {
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
+/* // original below // */
 /*.default-title h2 {*/
     /*font-size: 36px;*/
     /*line-height: 1.1;*/
@@ -269,11 +269,11 @@ navContainer{
 /*}*/
 
 .default-title h2{
-    font-size: 36px;
+    /*font-size: 36px;*/
     font-weight: normal;
-    line-height: 1.1;
-    margin-bottom: 10px;
-    text-transform: capitalize;
+    /*line-height: 1.1;*/
+    /*margin-bottom: 10px;*/
+    /*text-transform: capitalize;*/
     color: white;
 }
 
@@ -337,8 +337,10 @@ mySkills{
 
 .service-section.section-default{
     background-color: black;
-    padding: 120px 0 0;
+    /*padding: 120px 0 0;*/
+    padding: 120px 0 40px;
 }
+
 
 .service-section .default-title {
     margin-bottom: 100px;
@@ -385,7 +387,8 @@ serviceBox service-icon{
 
 service-icon{
     /*width: 60px;*/
-    /*background-color: yellow;*/
+    background-color: yellow;
+    font-size: 70px;
 }
 
 .service-icon, #materialize-icon img{
@@ -518,63 +521,59 @@ serviceBox description{
 /*---///---///---///---///---///---///---///---///---///---
     09. Portfolio CSS & filter content
 ---///---///---///---///---///---///---///---///---///---*/
+.myHiddenProjects{
+    background-color: orange;
+}
 
 #work{
     background-color: black;
     /*background-color: lightpink;*/
-    height: 100%;
+    /*height: 100%;*/
 }
 
-/*#porfolioContainer, .container{*/
-    /*border: 1px solid aqua;*/
-/*}*/
-
-myPortfolio-column{
-    border: 1px solid red;
+porfolioContainer{
+    /*border: 1px solid orange;*/
 }
-.portfolio-col{
-    background-color: lightgrey;
+
+portfolio-col{
+    /*background-color: lightgrey;*/
+    border: 1px solid #8a6d3b;
 
 }
 
 .filtr-container {
-    border: 1px solid green;
-    padding: 0px;
-    position: relative;
+    /*border: 1px solid green;*/
+    /*background-color: lightgreen;*/
+    /*padding: 0px;*/
+    /*position: relative;*/
     height: 100vh;
-    /*width: 100vw;*/
+
+}
+
+.filtr-item {
+    width: 33.25%;
+    /*padding: 5px;*/
 }
 
 .myProject-desc{
     font-size: 12px;
     line-height: normal;
     font-weight: normal;
-    color: ghostwhite;
-    border: 1px solid aqua;
+    /*background-color: mediumpurple;*/
+    /*border: 1px solid aqua;*/
+    color: white;
 }
 
+/*p.myProject-desc{*/
+    /*font-size: 1.5vmin;*/
+/*}*/
 
-portfolio-sectionsection-default{
-    background-color: black;
+.portfolio-section.section-default{
+    background-color: lightblue;
     color: white;
     padding: 120px 0 90px;
 
 }
-
-
-.filtr-item {
-    width: 33.25%;
-    padding: 5px;
-}
-
-/* // Item Hover CSS Portfolio item section // */
-
-/*#myProjectImage, portfolio-item img{*/
-    /*border: 1px solid darkred;*/
-    /*!*height: 275px;*!*/
-    /*!*width: 100%;*!*/
-    /*!*margin-left: 40px;*!*/
-/*}*/
 
 
 myProjectImage {
@@ -583,23 +582,22 @@ myProjectImage {
     height: 45vh;
 }
 
+/* // Item Hover CSS Portfolio item section // */
 
-portfolio-item {
-    width: 100%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    background: #000000;
-    margin-bottom: 30px;
-    border: 1px solid #ffffff;
-}
+/*.portfolio-item {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*float: left;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*text-align: center;*/
+    /*background: #000000;*/
+    /*margin-bottom: 30px;*/
+    /*border: 1px solid #ffffff;*/
+/*}*/
 
 portfolio-item{
     border: 2px solid rebeccapurple;
-    height: 45vh;
-    /*width: 30vw;*/
 }
 
 portfolio-item-info {
@@ -612,14 +610,11 @@ portfolio-item-info {
     padding: 3em;
     text-align: left;
 }
-.portfolio-item-info{
-    border: 1px solid chartreuse;
-    /*width: 95%;*/
+
+portfolio-item-info{
+    /*border: 1px solid chartreuse;*/
 }
 
-.myHiddenProjects{
-    background-color: orange;
-}
 
 /* // Original below //
 .portfolio-item img {
@@ -634,8 +629,17 @@ portfolio-item-info {
 }
 */
 
-/*.portfolio-item img{*/
-    /**/
+.portfolio-item img{
+    height: 275px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+/*.my-projectImages, .portfolio-item img{*/
+    /*border: 1px solid darkred;*/
+    /*height: 275px;*/
+    /*width: 100%;*/
+    /*margin-left: 40px;*/
 /*}*/
 
 /* // Original below //
@@ -656,8 +660,8 @@ portfolio-item-info {
 }*/
 
 .portfolio-item .portfolio-item-info:before {
-    border: 1px solid yellow;
-    margin-top: 20px;
+    /*border: 1px solid yellow;*/
+    margin: auto;
 }
 
 .portfolio-item:hover img {
@@ -693,9 +697,8 @@ portfolio-item-info {
 /*}*/
 
 .portfolio-item-info .item-caption {
-    height: 90%;
-    /*border: 1px solid dodgerblue;*/
-    /*margin: auto;*/
+    /*border: 1px solid aquamarine;*/
+    margin: auto;
     /*padding: 5px 10px 5px;*/
 }
 
@@ -752,13 +755,8 @@ portfolio-item-info {
 
 .portfolio-item-info .item-caption i {
     color: crimson;
+    /*background-color: lightgreen;*/
 
-}
-
-portfolio-item img{
-    height: 275px;
-    width: 100%;
-    /*margin-left: 40px;*/
 }
 
 

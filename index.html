@@ -195,35 +195,36 @@
     
     <!-- Portfolio Section -->
     <section class="portfolio-section section-default" id="work">
-        <div class="container" id="portfolioContainer">
+        <div class="container">
+
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2" id="myPortfolio-column">
-                    <div class="default-title text-center">
-                        <h2>Portfolio</h2>
-                    </div>
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <div class="default-title text-center"><h2>PROJECTS</h2></div>
                 </div>
             </div>
-    
-            <!-- Hide Filter Nav -->
-            <!--<ul class="portfolio-nav" style="background-color: lightgreen">-->
-                <!--<li data-filter="all"> All </li>-->
-                <!--<li data-filter="1"> Web Design </li>-->
-                <!--<li data-filter="2"> Grapich </li>-->
-                <!--<li data-filter="3"> Mobile app </li>-->
-            <!--</ul>-->
-            
+
             <div class="row">
                 <div class="portfolio-col">
                     
-                    <!-- Filter Content -->
-                    <div class="filtr-container" style="height:100vh">
-                        
+                    <!-- Filter Nav
+                    <ul class="portfolio-nav" style="background-color: lightgreen">
+                        <li data-filter="all"> All </li>
+                        <li data-filter="1"> Web Design </li>
+                        <li data-filter="2"> Grapich </li>
+                        <li data-filter="3"> Mobile app </li>
+                    </ul>
+                    -->
+                    
+                    <!-- // Filter Content // -->
+                    <div class="filtr-container">
+
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 2" data-sort="value">
-                            <div class="portfolio-item" style="height:45vh">
+
+                            <div class="portfolio-item">
+                                
+                                <img src="images/screenshort/cbond-img.png" class="img-responsive my-projectImages" alt="portfolio">
 
                                 <div class="portfolio-item-info">
-                                    <img src="images/screenshort/cbond-img.png" class="img-responsive" alt="portfolio">
-
                                     <div class="item-caption">
                                         <ul>
                                             <li>
@@ -246,14 +247,14 @@
                                         </p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 1" data-sort="value">
-                            <div class="portfolio-item" style="height:45vh">
+                            <div class="portfolio-item">
+                                <img src="images/screenshort/findFlix_img.png" class="img-responsive" alt="portfolio">
                                 <div class="portfolio-item-info">
-                                    <img src="images/screenshort/findFlix_img.png" class="img-responsive" alt="portfolio">
-
                                     <div class="item-caption">
                                         <ul>
                                             <li>
@@ -268,21 +269,23 @@
                                             </li>
                                         </ul>
                                         <h4><a href="#">findFlix</a></h4>
-                                        <p class="myProject-desc">Web Web app using HTML CSS, JS, jQuery, Asynchronous data calls through
-                                            AJAX and using JSON. Accesses Google Maps and Google places api for location services and
-                                            business information, Youtube api for video links and information for trailers, and
-                                            IMDB api for movie information.
+                                        <p class="myProject-desc">Web Web app using HTML CSS, JS, jQuery,
+                                            Asynchronous data calls through AJAX and using JSON. Accesses
+                                            Google Maps and Google places api for location services and
+                                            business information, Youtube api for video links and
+                                            information for trailers, and IMDB api for movie information.
                                         </p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 1" data-sort="value">
-                            <div class="portfolio-item" style="height:45vh">
-                                <div class="portfolio-item-info">
-                                    <img src="images/screenshort/memoryMatch-img.png" class="img-responsive" alt="portfolio">
+                            <div class="portfolio-item">
 
+                                <img src="images/screenshort/memoryMatch-img.png" class="img-responsive" alt="portfolio">
+                                <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
@@ -291,98 +294,118 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="memory_match" target="_blank"><i class="fa fa-link" aria-hidden="true"></i>
+                                                <a href="http://hi5marie.com/memory_match/" target="_blank">
+                                                    <i class="fa fa-link" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                         <h4><a href="#">Memory Match</a></h4>
-                                        
-                                        <p class="myProject-desc">Utilizes html, css, JS and jQuery to provide an interactive
-                                            game experience using events, functions, and dom manipulation to display up-to-date game states.
+                                        <p class="myProject-desc">Utilizes html, css, JS and jQuery to provide an
+                                            interactive game experience using events, functions, and dom manipulation
+                                            to display up-to-date game states.
                                         </p>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
-                        
-                        
-                        <!-- Hidden projects -->
+
+                        <!-- //// HIDDEN PROJECTS //// -->
+
+                        <!-- Hide project 4
 
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 2" data-sort="value">
                             <div class="portfolio-item myHiddenProjects">
+                                <img src="images/screenshort/cbond-img.png" class="img-responsive" alt="portfolio">
 
-                                <img src="images/portfolio/4.jpg" class="img-responsive" alt="portfolio">
-                                
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/4.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                <a href="images/screenshort/cbond-img.png" data-lightbox="lightbox" data-title="Calculator">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
-                                                </a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                             </li>
                                         </ul>
                                         <h4><a href="#">Calculator</a></h4>
+                                        <p class="project-desc">Lorem ipsum dolor sit amet, consectetur elit.
+                                            Adipisci at, consectetur culpa dolorem enim eos error harum illo
+                                            ipsa itaque laborum minus quae quasi qui quisquam, saepe vel.
+                                        </p>
                                     </div>
                                 </div>
+
                             </div>
-                        </div>
+                        </div> -->
                        
+                        <!-- Hide project 5
+
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 1" data-sort="value">
                             <div class="portfolio-item myHiddenProjects">
-                                <img src="images/portfolio/6.jpg" class="img-responsive" alt="portfolio">
+                                <img src="images/screenshort/findFlix_img.png" class="img-responsive" alt="portfolio">
+
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/6.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                <a href="images/screenshort/findFlix_img.png" data-lightbox="lightbox" data-title="Student Grade Table">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
-                                                </a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                             </li>
                                         </ul>
                                         <h4><a href="#">Student Grade Table</a></h4>
+                                        <p class="project-desc">Lorem ipsum dolor sit amet, consectetur elit.
+                                            Adipisci at, consectetur culpa dolorem enim eos error harum illo ipsa
+                                            itaque laborum minus quae quasi qui quisquam, quos repudiandae saepe.
+                                        </p>
                                     </div>
                                 </div>
+
                             </div>
-                        </div>
-    
+                        </div> -->
+
+                        <!-- Hide Project 6
+
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 1" data-sort="value">
                             <div class="portfolio-item myHiddenProjects">
-                                <img src="images/portfolio/6.jpg" class="img-responsive" alt="portfolio">
+                                <img src="images/screenshort/memoryMatch-img.png" class="img-responsive" alt="portfolio">
+
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/6.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                <a href="images/screenshort/memoryMatch-img.png" data-lightbox="lightbox" data-title="my project title-6">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
-                                                </a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                             </li>
                                         </ul>
-                                        <h4><a href="#">my project title</a></h4>
+                                        <h4><a href="#">my project title-6</a></h4>
+                                        <p class="project-desc">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Adipisci at, consectetur culpa dolorem enim
+                                            eos error harum illo ipsa itaque laborum minus quae quasi qui
+                                            quisquam, quos repudiandae saepe vel.
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        
 
+                            </div>
+                        </div> -->
+                        
                     </div>
+
                 </div>
             </div>
+
         </div>
-    
     </section>               
 
 
