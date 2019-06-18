@@ -44,9 +44,10 @@
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet">
     <!-- My CSS -->
-    <link href="css/custom.css" rel="stylesheet">
-    
-    
+    <!--<link href="css/custom.css" rel="stylesheet">-->
+
+    <link href="css/main-custom.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -195,33 +196,35 @@
     
     <!-- Portfolio Section -->
     <section class="portfolio-section section-default" id="work">
-        <div class="container" id="portfolioContainer">
+        <div class="container">
+
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2" id="myPortfolio-column">
-                    <div class="default-title text-center">
-                        <h2>Portfolio</h2>
-                    </div>
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <div class="default-title text-center"><h2>PROJECTS</h2></div>
                 </div>
             </div>
-    
-            <!-- Hide Filter Nav -->
-            <!--<ul class="portfolio-nav" style="background-color: lightgreen">-->
-                <!--<li data-filter="all"> All </li>-->
-                <!--<li data-filter="1"> Web Design </li>-->
-                <!--<li data-filter="2"> Grapich </li>-->
-                <!--<li data-filter="3"> Mobile app </li>-->
-            <!--</ul>-->
-            
+
             <div class="row">
                 <div class="portfolio-col">
                     
-                    <!-- Filter Content -->
+                    <!-- Filter Nav
+                    <ul class="portfolio-nav" style="background-color: lightgreen">
+                        <li data-filter="all"> All </li>
+                        <li data-filter="1"> Web Design </li>
+                        <li data-filter="2"> Grapich </li>
+                        <li data-filter="3"> Mobile app </li>
+                    </ul>
+                    -->
+                    
+                    <!-- // Filter Content // -->
                     <div class="filtr-container">
-                        
+
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 2" data-sort="value">
-                            <div class="portfolio-item" style="border: 1px solid rebeccapurple">
-                                <img src="images/screenshort/cbond-img.png" class="img-responsive" alt="portfolio">
+
+                            <div class="portfolio-item">
                                 
+                                <img src="images/screenshort/cbond-img.png" class="img-responsive my-projectImages" alt="portfolio">
+
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
@@ -236,9 +239,7 @@
                                                 </a>
                                             </li>
                                         </ul>
-                                        <h4>
-                                            <a href="#">cBond</a>
-                                        </h4>
+                                        <h4><a href="#">cBond</a></h4>
                                         <p class="myProject-desc">A 3-tier application that utilizes React and Axios,
                                             PHP, and MySQL to provide a nearly full ecommerce solution. It utilizes
                                             components for products, lists, details, cart, and purchases, as well as
@@ -247,13 +248,13 @@
                                         </p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 1" data-sort="value">
-                            <div class="portfolio-item" style="border:1px solid red">
-                                <img src="images/screenshort/findFlix_img.png" class="img-responsive" alt="portfolio" id="myProjectImage">
-                                
+                            <div class="portfolio-item">
+                                <img src="images/screenshort/findFlix_img.png" class="img-responsive" alt="portfolio">
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
@@ -269,21 +270,22 @@
                                             </li>
                                         </ul>
                                         <h4><a href="#">findFlix</a></h4>
-                                        <p class="myProject-desc">Web Web app using HTML CSS, JS, jQuery, Asynchronous data calls through
-                                            AJAX and using JSON. Accesses Google Maps and Google places api for location services and
-                                            business information, Youtube api for video links and information for trailers, and
-                                            IMDB api for movie information.
+                                        <p class="myProject-desc">Web Web app using HTML CSS, JS, jQuery,
+                                            Asynchronous data calls through AJAX and using JSON. Accesses
+                                            Google Maps and Google places api for location services and
+                                            business information, Youtube api for video links and
+                                            information for trailers, and IMDB api for movie information.
                                         </p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 1" data-sort="value">
                             <div class="portfolio-item">
-                                
+
                                 <img src="images/screenshort/memoryMatch-img.png" class="img-responsive" alt="portfolio">
-                                
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
@@ -293,99 +295,120 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="memory_match" target="_blank"><i class="fa fa-link" aria-hidden="true"></i>
+                                                <a href="http://hi5marie.com/memory_match/" target="_blank">
+                                                    <i class="fa fa-link" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                         <h4><a href="#">Memory Match</a></h4>
-                                        
-                                        <p class="myProject-desc">Utilizes html, css, JS and jQuery to provide an interactive
-                                            game experience using events, functions, and dom manipulation to display up-to-date game states.
+                                        <p class="myProject-desc">Utilizes html, css, JS and jQuery to provide an
+                                            interactive game experience using events, functions, and dom manipulation
+                                            to display up-to-date game states.
                                         </p>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
-                        
-                        
-                        <!-- Hidden projects
+
+                        <!-- //// HIDDEN PROJECTS //// -->
+
+                        <!-- Hide project 4
+
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 2" data-sort="value">
-                            <div class="portfolio-item" style="display: none">
-                                <img src="images/portfolio/4.jpg" class="img-responsive" alt="portfolio">
+                            <div class="portfolio-item myHiddenProjects">
+                                <img src="images/screenshort/cbond-img.png" class="img-responsive" alt="portfolio">
+
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/4.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                <a href="images/screenshort/cbond-img.png" data-lightbox="lightbox" data-title="Calculator">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
-                                                </a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                             </li>
                                         </ul>
                                         <h4><a href="#">Calculator</a></h4>
+                                        <p class="project-desc">Lorem ipsum dolor sit amet, consectetur elit.
+                                            Adipisci at, consectetur culpa dolorem enim eos error harum illo
+                                            ipsa itaque laborum minus quae quasi qui quisquam, saepe vel.
+                                        </p>
                                     </div>
                                 </div>
+
                             </div>
-                        </div>
+                        </div> -->
                        
+                        <!-- Hide project 5
+
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 1" data-sort="value">
-                            <div class="portfolio-item" style="display:none">
-                                <img src="images/portfolio/6.jpg" class="img-responsive" alt="portfolio">
+                            <div class="portfolio-item myHiddenProjects">
+                                <img src="images/screenshort/findFlix_img.png" class="img-responsive" alt="portfolio">
+
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/6.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                <a href="images/screenshort/findFlix_img.png" data-lightbox="lightbox" data-title="Student Grade Table">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
-                                                </a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                             </li>
                                         </ul>
                                         <h4><a href="#">Student Grade Table</a></h4>
+                                        <p class="project-desc">Lorem ipsum dolor sit amet, consectetur elit.
+                                            Adipisci at, consectetur culpa dolorem enim eos error harum illo ipsa
+                                            itaque laborum minus quae quasi qui quisquam, quos repudiandae saepe.
+                                        </p>
                                     </div>
                                 </div>
+
                             </div>
-                        </div>
-    
+                        </div> -->
+
+                        <!-- Hide Project 6
+
                         <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3, 1" data-sort="value">
-                            <div class="portfolio-item" style="display:none">
-                                <img src="images/portfolio/6.jpg" class="img-responsive" alt="portfolio">
+                            <div class="portfolio-item myHiddenProjects">
+                                <img src="images/screenshort/memoryMatch-img.png" class="img-responsive" alt="portfolio">
+
                                 <div class="portfolio-item-info">
                                     <div class="item-caption">
                                         <ul>
                                             <li>
-                                                <a href="images/portfolio/6.jpg" data-lightbox="lightbox" data-title="my project title">
+                                                <a href="images/screenshort/memoryMatch-img.png" data-lightbox="lightbox" data-title="my project title-6">
                                                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i>
-                                                </a>
+                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                                             </li>
                                         </ul>
-                                        <h4><a href="#">my project title</a></h4>
+                                        <h4><a href="#">my project title-6</a></h4>
+                                        <p class="project-desc">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Adipisci at, consectetur culpa dolorem enim
+                                            eos error harum illo ipsa itaque laborum minus quae quasi qui
+                                            quisquam, quos repudiandae saepe vel.
+                                        </p>
                                     </div>
                                 </div>
+
                             </div>
-                        </div>
-                        
-                        hidden projects -->
+                        </div> -->
                         
                     </div>
+
                 </div>
             </div>
+
         </div>
-    
     </section>               
-    
- 
+
 
     <!-- Service Section -->
     <section class="service-section section-default" id="service">
@@ -397,121 +420,86 @@
                     </div>
                 </div>
             </div>
-            
             <div class="row" id="myIconContainer">
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
-                
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                        
                         <div class="service-icon">
-                            <i class=" devicon-html5-plain colored">
-                            </i>
+                            <i class=" devicon-html5-plain colored"></i>
                         </div>
-
                         <h3 class="title icon_name">HTML5</h3>
-
                     </div>
                 </div>
     
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
-                            <i class="devicon-css3-plain colored">
-                            </i>
+                            <i class="devicon-css3-plain colored"></i>
                         </div>
-                        
                         <h3 class="title icon_name">CSS</h3>
-        
                     </div>
                 </div>
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="service-icon">
                             <i class="devicon-jquery-plain colored"></i>
                         </div>
-                        
                         <h3 class="title icon_name">jQuery</h3>
-        
                     </div>
                 </div>
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-bootstrap-plain colored"></i>
                         </div>
-                        
                         <h3 class="title icon_name">Bootstrap</h3>
-        
                     </div>
                 </div>
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="service-icon">
                             <i class="devicon-javascript-plain colored"></i>
-            
                         </div>
                         <h3 class="title icon_name">JavaScript</h3>
-        
                     </div>
                 </div>
-                
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-react-plain colored"></i>
                         </div>
-                        
                         <h3 class="title icon_name">React</h3>
-        
                     </div>
                 </div>
-                
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="service-icon">
                             <i class="devicon-php-plain colored"></i>
-                    
                         </div>
                         <h3 class="title icon_name">php</h3>
-                
                     </div>
                 </div>
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-mysql-plain colored"></i>
-            
                         </div>
                         <h3 class="title icon_name">mySQL</h3>
-        
                     </div>
                 </div>
-    
-    
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-git-plain colored"></i>
-            
                         </div>
                         <h3 class="title icon_name">Git</h3>
-        
                     </div>
                 </div>
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-github-plain colored"></i>
-            
                         </div>
                         <h3 class="title icon_name">GitHub</h3>
-        
                     </div>
                 </div>
 
@@ -521,80 +509,56 @@
                             <i class="devicon-mampIcon">
                                 <img src="images/icons/mamp-icon.jpeg" style="width:60px" id="mampIcon">
                             </i>
-
                         </div>
                         <h3 class="title icon_name">MAMP</h3>
-
                     </div>
                 </div>
-
-
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-materializeIcon">
-                                <!--<div id="myIcon-image"></div>-->
                                 <img src="images/icons/materializeIcon.png" style="width:60px" id="materialize-icon">
                             </i>
-            
                         </div>
                         <h3 class="title icon_name">Materialize</h3>
         
                     </div>
                 </div>
-                
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-nodejs-plain colored"></i>
-            
                         </div>
                         <h3 class="title icon_name">Node js</h3>
-        
                     </div>
                 </div>
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-ubuntu-plain colored"></i>
-            
                         </div>
                         <h3 class="title icon_name">Ubuntu</h3>
-        
                     </div>
                 </div>
-                
-
-    
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-amazonwebservices-plain colored"></i>
-            
                         </div>
                         <h3 class="title icon_name">AWS</h3>
-        
                     </div>
                 </div>
-    
                 <div class="col-md-4 col-sm-6 col-xs-6 full-wd600">
                     <div class="serviceBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="service-icon">
                             <i class="devicon-wordpress-plain colored"></i>
-            
                         </div>
                         <h3 class="title icon_name">WordPress</h3>
-        
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>
-
 
 
     <!-- About Section -->
@@ -734,7 +698,7 @@
                                 </div>
                                 <div class="col-md-12">
                                     <textarea class="form-control textarea-hight-full" id="message" name="message" rows="6" placeholder="Message" required></textarea>
-                                    <button class="btn btn-default simple-default-btn" type="submit">Sent Message</button>
+                                    <button class="btn btn-default simple-default-btn" type="submit">Send Message</button>
                                 </div>
                             </form>
                         </div>
@@ -759,7 +723,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="copyright-col text-center">
-                            <p class="backTo-top">Back to Top</p>
+                            <!--<p class="backTo-top">Back to Top</p>-->
                             <!-- Hide footer section
                             <p>Copyright ©2018 <a href="https://themeforest.net/user/awesome_theme" target="_blank">Awesome_Theme</a>
                             All Rights Reserved</p>

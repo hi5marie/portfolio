@@ -1,28 +1,7 @@
-
 /* // Btn CSS // */
-
-simple-default-btn {
-    border: none;
-    border-radius: 0;
-    color: #ffffff;
-    background: #96C346;
-    padding: 12px 30px;
-    text-transform: uppercase;
-    position: relative;
-    overflow: hidden;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
 .simple-default-btn{
     background-color: #424242;
     color: white;
-    /*margin-left: 35px;*/
-    /*margin: 20px;*/
-    /*padding: 12px 46px;*/
 }
 
 .btn-black {
@@ -34,34 +13,6 @@ simple-default-btn {
     color: darkgrey;
 }
 
-
-.simple-default-btn:hover:before {
-    left: 300px;
-    z-index: -1;
-    -webkit-transition: all 0.6s ease-in-out;
-    -moz-transition: all 0.6s ease-in-out;
-    -ms-transition: all 0.6s ease-in-out;
-    -o-transition: all 0.6s ease-in-out;
-    transition: all 0.6s ease-in-out;
-}
-
-simple-default-btn:hover {
-    color: #ffffff;
-    background: #111111;
-    z-index: 1;
-    border-color: #6AB4FF;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-.simple-default-btn:hover {
-    border-color: #6AB4FF;
-    /*border-color: rgba(7,235,235,0.79);*/
-
-}
-
 /*---///---///---///---///---///---///---///---///---///---
     04. Welcome Section CSS
 ---///---///---///---///---///---///---///---///---///---*/
@@ -69,7 +20,6 @@ simple-default-btn:hover {
 
 welcome-section {
     /*padding: 220px 0 0;*/
-
     position: relative;
     background-image: url(../images/screenshort/backgroundcode.png);
     background-size: cover;
@@ -145,9 +95,8 @@ welcome-section-two {
     /*background-position: center;*/
     background-repeat: no-repeat;
     background-image: url(../images/screenshort/backgroundcode.png);
-    /*padding: 220px 0 0;*/
-
-    padding: 0;
+    padding: 220px 0 0;
+    /*padding: 0;*/
 
 }
 
@@ -168,7 +117,7 @@ welcome-section-two {
 
 
 /* // 3. Header CSS Main Nav // */
-.main-nav {
+main-nav {
     background: black;
     border-bottom: none;
     padding-top: 5px;
@@ -228,14 +177,14 @@ navContainer{
 
 }
 
-.logo2-terrado{
-    color: rgba(117, 8, 8, 0.94);
-    font-size: 30px;
-    box-sizing: border-box;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 5px;
+/*.logo2-terrado{*/
+    /*color: rgba(117, 8, 8, 0.94);*/
+    /*font-size: 30px;*/
+    /*box-sizing: border-box;*/
+    /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+    /*margin-top: 5px;*/
 
-}
+/*}*/
 
 
 /* // 12. Contact CSS // */
@@ -255,11 +204,11 @@ navContainer{
 }
 
 /* Default Title CSS */
-
 .default-title {
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
+/* // original below // */
 /*.default-title h2 {*/
     /*font-size: 36px;*/
     /*line-height: 1.1;*/
@@ -269,11 +218,11 @@ navContainer{
 /*}*/
 
 .default-title h2{
-    font-size: 36px;
+    /*font-size: 36px;*/
     font-weight: normal;
-    line-height: 1.1;
-    margin-bottom: 10px;
-    text-transform: capitalize;
+    /*line-height: 1.1;*/
+    /*margin-bottom: 10px;*/
+    /*text-transform: capitalize;*/
     color: white;
 }
 
@@ -324,7 +273,6 @@ mySkills{
     background-color: darkgray;
 }
 
-
 .service-section {
     background: url(../images/bg/pattern.png);
     /*background: #f6f6f6;*/
@@ -337,12 +285,15 @@ mySkills{
 
 .service-section.section-default{
     background-color: black;
-    padding: 120px 0 0;
+    /*padding: 120px 0 0;*/
+    padding: 120px 0 40px;
 }
 
 .service-section .default-title {
     margin-bottom: 100px;
 }
+
+
 /* // Below original // */
 serviceBox {
     text-align: center;
@@ -351,7 +302,7 @@ serviceBox {
     background: #ffffff;
     padding: 70px 20px 40px;
 }
-.serviceBox {
+serviceBox {
     /*border: 0.5px solid orange;*/
     /*background-color: #1d1d1d;*/
     background-color: black;
@@ -359,7 +310,21 @@ serviceBox {
     /*padding: 20px 0 0;*/
 }
 
-/* // Below original // */
+.serviceBox {
+    border: 0.5px solid black;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    /*margin-bottom: 75px;*/
+    /*padding: 30px 0 30px;*/
+    /*padding: 0 30px 30px 20px;*/
+
+    margin: 60px 0 5px 0;
+    padding: 0;
+
+}
+
+/* // Below original //
 serviceBox service-icon{
     position: absolute;
     left: 50%;
@@ -372,20 +337,41 @@ serviceBox service-icon{
     font-size: 50px;
     color: #ffffff;
     transition: all 500ms ease 0s;
-}
-/* // Below changed // */
-.serviceBox .service-icon{
-    border-radius: 5px;
-    background: white;
-    /*background-color: black;*/
-    /*background-color: teal;*/
-    top: -25px;
+}*/
 
+
+/* // Below changed // */
+/*.serviceBox .service-icon{*/
+    /*border-radius: 5px;*/
+    /*background: white;*/
+    /*!*background-color: black;*!*/
+    /*!*background-color: teal;*!*/
+    /*top: -25px;*/
+
+/*}*/
+
+.serviceBox .service-icon{
+    position: absolute;
+    /*left: 50%;*/
+    /*top: -45px;*/
+    /*margin-left: -45px;*/
+    height: 125px;
+    width: 125px;
+    line-height: 90px;
+    background: white;
+    font-size: 70px;
+    /*color: #ffffff;*/
+    transition: all 500ms ease 0s;
+
+    left: 20px;
+    top: -30px;
+    margin: 0;
 }
 
 service-icon{
     /*width: 60px;*/
-    /*background-color: yellow;*/
+    background-color: yellow;
+    font-size: 70px;
 }
 
 .service-icon, #materialize-icon img{
@@ -518,76 +504,74 @@ serviceBox description{
 /*---///---///---///---///---///---///---///---///---///---
     09. Portfolio CSS & filter content
 ---///---///---///---///---///---///---///---///---///---*/
+.myHiddenProjects{
+    background-color: orange;
+}
 
 #work{
     background-color: black;
+    /*background-color: lightpink;*/
+    /*height: 100%;*/
 }
 
-/*#porfolioContainer, .container{*/
-    /*border: 1px solid aqua;*/
-/*}*/
-
-myPortfolio-column{
-    border: 1px solid red;
+porfolioContainer{
+    /*border: 1px solid orange;*/
 }
-.portfolio-col{
-    background-color: lightgrey;
+
+portfolio-col{
+    /*background-color: lightgrey;*/
+    border: 1px solid #8a6d3b;
 
 }
 
 .filtr-container {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
+    /*background-color: lightgreen;*/
+    /*padding: 0px;*/
+    /*position: relative;*/
+    /*height: 100vh;*/
+
+}
+
+.filtr-item {
+    width: 33.25%;
+    /*padding: 5px;*/
 }
 
 .myProject-desc{
     font-size: 12px;
     line-height: normal;
     font-weight: normal;
-    color: ghostwhite;
-    border: 1px solid aqua;
-}
-
-
-portfolio-section.section-default{
-    background-color: black;
+    /*background-color: mediumpurple;*/
+    /*border: 1px solid aqua;*/
     color: white;
-    padding: 120px 0 90px;
+}
+
+p.myProject-desc{
+    font-size: 1.5vmin;
+}
+
+.portfolio-section.section-default{
+    background-color: lightblue;
+    color: white;
+    /*padding: 120px 0 90px;*/
 
 }
 
-
-.filtr-item {
-    width: 33.25%;
-    padding: 5px;
-}
 
 /* // Item Hover CSS Portfolio item section // */
 
-/*#myProjectImage, portfolio-item img{*/
-    /*border: 1px solid darkred;*/
-    /*!*height: 275px;*!*/
-    /*!*width: 100%;*!*/
-    /*!*margin-left: 40px;*!*/
+/*.portfolio-item {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*float: left;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*text-align: center;*/
+    /*background: #000000;*/
+    /*margin-bottom: 30px;*/
+    /*border: 1px solid #ffffff;*/
 /*}*/
-
-
-#myProjectImage1 {
-    height: 100%;
-    width: 100%;
-}
-
-
-portfolio-item {
-    width: 100%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    background: #000000;
-    margin-bottom: 30px;
-    border: 1px solid #ffffff;
-}
 
 portfolio-item{
     border: 2px solid rebeccapurple;
@@ -603,10 +587,13 @@ portfolio-item-info {
     padding: 3em;
     text-align: left;
 }
-.portfolio-item-info{
-    /*border: 1px solid deeppink;*/
+
+portfolio-item-info{
+    /*border: 1px solid chartreuse;*/
 }
 
+
+/* // Original below //
 .portfolio-item img {
     display: block;
     position: relative;
@@ -617,25 +604,41 @@ portfolio-item-info {
     -webkit-transform: translate3d(-40px, 0, 0);
     transform: translate3d(-40px, 0, 0);
 }
+*/
 
-/*.portfolio-item portfolio-item-info:before {*/
-    /*position: absolute;*/
-    /*top: 20px;*/
-    /*right: 20px;*/
-    /*bottom: 20px;*/
-    /*left: 20px;*/
-    /*border: 1px solid #dddddd;*/
-    /*content: '';*/
-    /*opacity: 0;*/
-    /*filter: alpha(opacity=0);*/
-    /*-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;*/
-    /*transition: opacity 0.35s, transform 0.45s;*/
-    /*-webkit-transform: translate3d(-20px, 0, 0);*/
-    /*transform: translate3d(-20px, 0, 0);*/
+/*.portfolio-item img{*/
+    /*height: 275px;*/
+    /*width: 100%;*/
+    /*margin-left: 40px;*/
 /*}*/
+
+.my-projectImages, .portfolio-item img{
+    border: 1px solid darkred;
+    height: 275px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+/* // Original below //
+.portfolio-item portfolio-item-info:before {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid #dddddd;
+    content: '';
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
+}*/
+
 .portfolio-item .portfolio-item-info:before {
-    border: 1px solid yellow;
-    margin-top: 20px;
+    /*border: 1px solid yellow;*/
+    margin: auto;
 }
 
 .portfolio-item:hover img {
@@ -671,9 +674,8 @@ portfolio-item-info {
 /*}*/
 
 .portfolio-item-info .item-caption {
-    height: 90%;
-    /*border: 1px solid dodgerblue;*/
-    /*margin: auto;*/
+    /*border: 1px solid aquamarine;*/
+    margin: auto;
     /*padding: 5px 10px 5px;*/
 }
 
@@ -730,13 +732,8 @@ portfolio-item-info {
 
 .portfolio-item-info .item-caption i {
     color: crimson;
+    /*background-color: lightgreen;*/
 
-}
-
-portfolio-item img{
-    height: 275px;
-    width: 100%;
-    /*margin-left: 40px;*/
 }
 
 
@@ -749,8 +746,7 @@ portfolio-item img{
 }
 
 #myPicture{
-    width: auto;
-    margin: auto;
+    max-width: 70%;
 }
 
 @media screen and (min-width: 601px){
