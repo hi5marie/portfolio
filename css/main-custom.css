@@ -123,6 +123,18 @@ portfolio-col{
     /*color: white;*/
 }
 
+.portfolio-nav{
+    background-color: ghostwhite;
+}
+
+.portfolio-nav li:hover{
+    color: white;
+}
+
+.filtr-item{
+    padding: 0;
+}
+
 .portfolio-item{
     border: 2px solid grey;
     /*background: antiquewhite;*/
@@ -160,13 +172,13 @@ portfolio-col{
     /*margin-left: 41px;*/
 /*}*/
 
-.portfolio-item img{
-    /*border: 1px solid deeppink;*/
-    height: 275px;
-    width: 100%;
-    margin-left: 40px;
-    padding: 5px;
-}
+/*.portfolio-item img{*/
+    /*!*border: 1px solid deeppink;*!*/
+    /*height: 275px;*/
+    /*width: 100%;*/
+    /*margin-left: 40px;*/
+    /*padding: 5px;*/
+/*}*/
 
 
 
@@ -215,7 +227,7 @@ mySkills{
 /* // Below bootstrap Service CSS section icons // */
 /* icon size */
 
-@media screen and (min-width: 992px){
+@media only screen and (min-width: 992px){
     div.col-md-4 {
         width: 25%;
         margin: auto;
