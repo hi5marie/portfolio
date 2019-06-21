@@ -608,12 +608,12 @@ portfolio-item-info{
     /*margin-left: 40px;*/
 /*}*/
 
-.my-projectImages, .portfolio-item img{
-    border: 1px solid darkred;
-    height: 275px;
-    width: 100%;
-    margin-left: 40px;
-}
+/*.my-projectImages, .portfolio-item img{*/
+    /*border: 1px solid darkred;*/
+    /*height: 275px;*/
+    /*width: 100%;*/
+    /*margin-left: 40px;*/
+/*}*/
 
 /* // Original below //
 .portfolio-item portfolio-item-info:before {
@@ -745,11 +745,11 @@ portfolio-item-info{
     max-width: 70%;
 }
 
-@media screen and (min-width: 601px){
-    #myPicture{
-        padding: 100px;
-    }
-}
+/*@media screen and (min-width: 601px){*/
+    /*#myPicture{*/
+        /*padding: 100px;*/
+    /*}*/
+/*}*/
 @media screen and (max-width: 601px){
     #myPicture{
         padding: 60px;
