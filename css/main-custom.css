@@ -37,7 +37,7 @@
 }
 
 /*---///---///---///---///---///---///---///---///---///---
-    04. Welcome Section CSS
+    04. Welcome CSS
 ---///---///---///---///---///---///---///---///---///---*/
 
 welcome-section {
@@ -49,14 +49,15 @@ welcome-section {
     background-repeat: no-repeat;
 }
 
-
 .welcome-col img {
     /*border: 4px solid #96c346;*/
     border: 1px solid black;
-    width: 235px;
+    /*width: 235px;*/
+}
 
-    position: relative;
-    z-index: 2;
+.welcome-section.sec-btm-style:after{
+    border: 2px solid deeppink;
+    height: 200px;
 }
 
 .welcome-col h1 span {
@@ -132,7 +133,7 @@ portfolio-col{
 }
 
 .filtr-item{
-    padding: 0;
+    padding: 5px;
 }
 
 .portfolio-item{
@@ -142,23 +143,24 @@ portfolio-col{
 
 /*.portfolio-item-info .item-caption {*/
     /*border: 1px solid aquamarine;*/
+    /*!*border: 1px solid black;*!*/
     /*!*margin: auto;*!*/
     /*!*padding: 5px 10px 5px;*!*/
 /*}*/
 
-.portfolio-item-info{
+portfolio-item-info{
     /*border: 1px solid indigo;*/
 }
-.item-caption{
+item-caption{
     /*border: 1px solid orange;*/
 }
 
-.portfolio-item-info .item-caption h4 a {
-    color: #eeeeee;
-    /*color: aqua;*/
-    letter-spacing: 1px;
-    line-height: 1.3;
-}
+/*.portfolio-item-info .item-caption h4 a {*/
+    /*color: #eeeeee;*/
+    /*!*color: aqua;*!*/
+    /*letter-spacing: 1px;*/
+    /*line-height: 1.3;*/
+/*}*/
 
 .portfolio-item-info .item-caption i {
     color: crimson;
@@ -171,6 +173,7 @@ portfolio-col{
     /*width: 100%;*/
     /*margin-left: 41px;*/
 /*}*/
+
 
 /*.portfolio-item img{*/
     /*!*border: 1px solid deeppink;*!*/
@@ -192,12 +195,6 @@ portfolio-col{
 /*p.myProject-desc {*/
     /*font-size: 1.5vmin;*/
 /*}*/
-
-.default-title h2{
-    font-weight: normal;
-    color: white;
-}
-
 
 
 /*---///---///---///---///---///---///---///---///---///---
@@ -261,6 +258,10 @@ mySkills{
     margin-bottom: 100px;
 }
 
+.default-title h2{
+    font-weight: normal;
+    color: white;
+}
 
 
 /*.service-icon, #materialize-icon img{*/
