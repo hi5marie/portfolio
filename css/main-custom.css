@@ -137,7 +137,7 @@ welcome-section {
 
 .filtr-item{
     /*border: 1px solid yellow;*/
-    padding: 5px;
+    padding: 0;
 }
 
 .portfolio-item{
@@ -147,7 +147,7 @@ welcome-section {
 
 }
 
-.portfolio-item-info .item-caption {
+portfolio-item-info item-caption {
     /*border: 1px solid aquamarine;*/
     /*border: 1px solid black;*/
     /*margin: auto;*/
@@ -175,11 +175,11 @@ item-caption{
 
 
 /* below my-projectImages without img */
-.my-projectImages, .portfolio-item img{
-    height: 275px;
-    width: 100%;
-    margin-left: 41px;
-}
+/*.my-projectImages, .portfolio-item img{*/
+    /*height: 275px;*/
+    /*width: 100%;*/
+    /*margin-left: 41px;*/
+/*}*/
 
 /*.my-projectImages img, portfolio-item img{*/
     /*height: 275px;*/
@@ -187,13 +187,13 @@ item-caption{
     /*margin-left: 41px;*/
 /*}*/
 
-/*.portfolio-item img{*/
-    /*!*border: 1px solid deeppink;*!*/
-    /*height: 275px;*/
-    /*width: 100%;*/
-    /*margin-left: 40px;*/
-    /*padding: 5px;*/
-/*}*/
+.portfolio-item img{
+    /*border: 1px solid deeppink;*/
+    height: 275px;
+    width: 100%;
+    margin-left: 40px;
+    padding: 5px;
+}
 
 
 
