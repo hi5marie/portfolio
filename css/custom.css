@@ -494,7 +494,8 @@ service-icon i{
 }
 
 .welcome-section.sec-btm-style:after {
-    height: 200;
+    /*height: 200;*/
+    height: 200px;
 }
 
 .about-section {

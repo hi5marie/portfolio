@@ -137,16 +137,19 @@ portfolio-col{
 }
 
 .portfolio-item{
-    border: 2px solid grey;
+    /*border: 2px solid grey;*/
     /*background: antiquewhite;*/
+    /*border: 1px solid red;*/
+
 }
 
-/*.portfolio-item-info .item-caption {*/
+.portfolio-item-info .item-caption {
     /*border: 1px solid aquamarine;*/
-    /*!*border: 1px solid black;*!*/
-    /*!*margin: auto;*!*/
-    /*!*padding: 5px 10px 5px;*!*/
-/*}*/
+    /*border: 1px solid black;*/
+    /*margin: auto;*/
+    /*padding: 5px 10px 5px;*/
+    /*bottom: 0;*/
+}
 
 portfolio-item-info{
     /*border: 1px solid indigo;*/
@@ -168,11 +171,11 @@ item-caption{
 
 }
 
-/*.my-projectImages, .portfolio-item img{*/
-    /*height: 275px;*/
-    /*width: 100%;*/
-    /*margin-left: 41px;*/
-/*}*/
+.my-projectImages img, portfolio-item img{
+    height: 275px;
+    width: 100%;
+    margin-left: 41px;
+}
 
 
 /*.portfolio-item img{*/
@@ -186,7 +189,7 @@ item-caption{
 
 
 .myProject-desc{
-    font-size: 12px;
+    /*font-size: 12px;*/
     line-height: normal;
     font-weight: normal;
     color: white;
