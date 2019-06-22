@@ -45,11 +45,11 @@ welcome-section {
     /*width: 235px;*/
 }
 
-.welcome-section.sec-btm-style:after{
-    border: 2px solid deeppink;
-    /*height: 200;*/
-    height: 200px;
-}
+/*.welcome-section.sec-btm-style:after{*/
+    /*border: 2px solid deeppink;*/
+    /*!*height: 200;*!*/
+    /*height: 200px;*/
+/*}*/
 
 .welcome-col h1 {
     /*color: #96c346;*/
@@ -152,7 +152,7 @@ welcome-section {
     /*border: 1px solid black;*/
     /*margin: auto;*/
     /*padding: 5px 10px 5px;*/
-    /*bottom: 0;*/
+    bottom: -8px;
 }
 
 portfolio-item-info{
@@ -247,6 +247,14 @@ icon_name{
     /*}*/
 /*}*/
 
+@media screen and (min-width: 992px){
+    div.col-md-4{
+        width: 20%;
+        margin: auto;
+        left: 20px;
+    }
+}
+
 @media only screen and (min-width: 601px){
     div.full-wd600 {
         width: 25%;
@@ -277,7 +285,9 @@ icon_name{
 
 .service-section.section-default{
     background-color: black;
-    padding: 120px 0 40px;
+    /*padding: 120px 0 40px;*/
+    padding: 120px 0 40px 0;
+
 }
 
 .service-section .default-title {
