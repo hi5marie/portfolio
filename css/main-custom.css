@@ -26,16 +26,6 @@
     font-size: 45px;
 }
 
-
-.welcome-col ul li a i {
-    width: 45px;
-    height: 42px;
-    font-size: 22px;
-    line-height: 40px;
-    border: 2px solid white;
-    color: white;
-}
-
 /*---///---///---///---///---///---///---///---///---///---
     04. Welcome CSS
 ---///---///---///---///---///---///---///---///---///---*/
@@ -57,10 +47,11 @@ welcome-section {
 
 .welcome-section.sec-btm-style:after{
     border: 2px solid deeppink;
+    /*height: 200;*/
     height: 200px;
 }
 
-.welcome-col h1 span {
+.welcome-col h1 {
     /*color: #96c346;*/
     color: crimson;
     /*font-size: 45px;*/
@@ -77,6 +68,16 @@ welcome-section {
         font-size: 40px;
     }
 }
+
+
+/*.welcome-col ul li a i {*/
+    /*width: 45px;*/
+    /*height: 42px;*/
+    /*font-size: 22px;*/
+    /*line-height: 40px;*/
+    /*border: 2px solid white;*/
+    /*color: white;*/
+/*}*/
 
 .welcome-col ul li a i:hover {
     /*border-color: #96C346;*/
@@ -111,18 +112,20 @@ welcome-section {
     09. Portfolio CSS
 ---///---///---///---///---///---///---///---///---///---*/
 
-portfolio-col{
-    background: #1d1d1d;
-    /*background-color: lightgrey;*/
+.portfolio-col{
+    /*background: #1d1d1d;*/
+    background-color: floralwhite;
     /*border: 1px solid red;*/
 
 }
 
 .portfolio-section.section-default{
-    /*background: #1d1d1d;*/
-    background-color: black;
+    background: #1d1d1d;
+    /*background-color: black;*/
     /*color: white;*/
+
 }
+
 
 .portfolio-nav{
     background-color: ghostwhite;
@@ -133,7 +136,8 @@ portfolio-col{
 }
 
 .filtr-item{
-    padding: 5px;
+    /*border: 1px solid yellow;*/
+    /*padding: 5px;*/
 }
 
 .portfolio-item{
@@ -167,16 +171,21 @@ item-caption{
 
 .portfolio-item-info .item-caption i {
     color: crimson;
-    /*background-color: lightgreen;*/
-
 }
 
-.my-projectImages img, portfolio-item img{
+
+/* below my-projectImages without img */
+.my-projectImages, .portfolio-item img{
     height: 275px;
     width: 100%;
     margin-left: 41px;
 }
 
+/*.my-projectImages img, portfolio-item img{*/
+    /*height: 275px;*/
+    /*width: 100%;*/
+    /*margin-left: 41px;*/
+/*}*/
 
 /*.portfolio-item img{*/
     /*!*border: 1px solid deeppink;*!*/
@@ -189,7 +198,7 @@ item-caption{
 
 
 .myProject-desc{
-    /*font-size: 12px;*/
+    font-size: 12px;
     line-height: normal;
     font-weight: normal;
     color: white;
