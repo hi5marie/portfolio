@@ -112,7 +112,7 @@ welcome-section {
     09. Portfolio CSS
 ---///---///---///---///---///---///---///---///---///---*/
 
-.portfolio-col{
+portfolio-col{
     /*background: #1d1d1d;*/
     background-color: floralwhite;
     /*border: 1px solid red;*/
@@ -127,7 +127,7 @@ welcome-section {
 }
 
 
-.portfolio-nav{
+portfolio-nav{
     background-color: ghostwhite;
 }
 
@@ -140,7 +140,7 @@ welcome-section {
     padding: 0;
 }
 
-.portfolio-item{
+portfolio-item{
     /*border: 2px solid grey;*/
     /*background: antiquewhite;*/
     /*border: 1px solid red;*/
@@ -187,15 +187,13 @@ item-caption{
     /*margin-left: 41px;*/
 /*}*/
 
-.portfolio-item img{
-    /*border: 1px solid deeppink;*/
-    height: 275px;
-    width: 100%;
-    margin-left: 40px;
-    padding: 5px;
-}
-
-
+/*.portfolio-item img{*/
+    /*!*border: 1px solid deeppink;*!*/
+    /*height: 275px;*/
+    /*width: 100%;*/
+    /*margin-left: 40px;*/
+    /*padding: 5px;*/
+/*}*/
 
 .myProject-desc{
     font-size: 12px;
