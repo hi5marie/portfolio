@@ -135,7 +135,7 @@ portfolio-nav{
     color: white;
 }
 
-filtr-item{
+.filtr-item{
     /*border: 1px solid yellow;*/
     padding: 0;
 }
@@ -175,11 +175,11 @@ item-caption{
 
 
 /* below my-projectImages without img */
-/*.my-projectImages, .portfolio-item img{*/
-    /*height: 275px;*/
-    /*width: 100%;*/
-    /*margin-left: 41px;*/
-/*}*/
+.my-projectImages{
+    height: 275px;
+    width: 100%;
+    margin-left: 40px;
+}
 
 /*.my-projectImages img, portfolio-item img{*/
     /*height: 275px;*/
@@ -216,7 +216,7 @@ mySkills{
     margin-top: -40px;
 }
 
-#myIconContainer{
+myIconContainer{
     /*border: 1px solid red;*/
     /*background-color: dimgrey;*/
 }
@@ -245,13 +245,13 @@ icon_name{
     /*}*/
 /*}*/
 
-@media screen and (min-width: 992px){
-    div.col-md-4{
-        width: 20%;
-        margin: auto;
-        left: 20px;
-    }
-}
+/*@media screen and (min-width: 992px){*/
+    /*div.col-md-4{*/
+        /*width: 20%;*/
+        /*margin: auto;*/
+        /*left: 20px;*/
+    /*}*/
+/*}*/
 
 @media only screen and (min-width: 601px){
     div.full-wd600 {
@@ -381,8 +381,8 @@ serviceBox service-icon{
 
 
 .serviceBox:hover .service-icon:after{
-    opacity: 1;
-    /*opacity: 0;*/
+    /*opacity: 1;*/
+    opacity: 0;
     /*transform: scale(0.6, 0.6);*/
     transform: scale(1.0, 1.0);
 
