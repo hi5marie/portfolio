@@ -39,11 +39,11 @@ welcome-section {
     background-repeat: no-repeat;
 }
 
-.welcome-col img {
-    /*border: 4px solid #96c346;*/
-    border: 1px solid black;
-    /*width: 235px;*/
-}
+/*.welcome-col img {*/
+    /*!*border: 4px solid #96c346;*!*/
+    /*border: 1px solid black;*/
+    /*!*width: 235px;*!*/
+/*}*/
 
 /*.welcome-section.sec-btm-style:after{*/
     /*border: 2px solid deeppink;*/
@@ -135,7 +135,7 @@ portfolio-nav{
     color: white;
 }
 
-.filtr-item{
+filtr-item{
     /*border: 1px solid yellow;*/
     padding: 0;
 }
