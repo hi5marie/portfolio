@@ -147,7 +147,7 @@ portfolio-item{
 
 }
 
-.portfolio-item-info, .item-caption {
+portfolio-item-info, item-caption {
     /*border: 1px solid aquamarine;*/
     /*border: 1px solid black;*/
     /*margin: auto;*/
@@ -157,8 +157,8 @@ portfolio-item{
 }
 
 .portfolio-item-info{
-    border: 1px solid indigo;
-    /*height: auto;*/
+    /*border: 1px solid indigo;*/
+    /*margin: auto;*/
 }
 
 /*.item-caption{*/
