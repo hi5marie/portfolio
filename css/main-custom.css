@@ -30,7 +30,7 @@
     04. Welcome CSS
 ---///---///---///---///---///---///---///---///---///---*/
 
-welcome-section {
+.welcome-section {
     /*padding: 220px 0 0;*/
     position: relative;
     background-image: url(../images/screenshort/backgroundcode.png);
@@ -57,17 +57,17 @@ welcome-section {
     /*font-size: 45px;*/
 }
 
-@media screen and (min-width: 601px){
-    div.welcome-col h1 span{
-        font-size: 50px;
-    }
-}
+/*@media screen and (min-width: 601px){*/
+    /*div.welcome-col h1 span{*/
+        /*font-size: 50px;*/
+    /*}*/
+/*}*/
 
-@media screen and (max-width: 601px){
-    div.welcome-col h1 span{
-        font-size: 40px;
-    }
-}
+/*@media screen and (max-width: 601px){*/
+    /*div.welcome-col h1 span{*/
+        /*font-size: 40px;*/
+    /*}*/
+/*}*/
 
 
 /*.welcome-col ul li a i {*/
@@ -79,19 +79,19 @@ welcome-section {
     /*color: white;*/
 /*}*/
 
-.welcome-col ul li a i:hover {
-    /*border-color: #96C346;*/
-    /*background: #96C346;*/
-    border-color: whitesmoke;
-    /*background: red;*/
-    color: #ffffff;
-}
+/*.welcome-col ul li a i:hover {*/
+    /*!*border-color: #96C346;*!*/
+    /*!*background: #96C346;*!*/
+    /*border-color: whitesmoke;*/
+    /*!*background: red;*!*/
+    /*color: #ffffff;*/
+/*}*/
 
 /*---///---///---///---///---///---///---///---///---///---
     05. Welcome two CSS
 ---///---///---///---///---///---///---///---///---///---*/
 
-.welcome-section-two{
+welcome-section-two{
     background-size: cover;
     /*background-position: center;*/
     background-repeat: no-repeat;
@@ -123,6 +123,7 @@ portfolio-col{
     background: #1d1d1d;
     /*background-color: black;*/
     /*color: white;*/
+    /*border: 1px solid aqua;*/
 
 }
 
@@ -131,13 +132,13 @@ portfolio-nav{
     background-color: ghostwhite;
 }
 
-.portfolio-nav li:hover{
-    color: white;
-}
+/*.portfolio-nav li:hover{*/
+    /*color: white;*/
+/*}*/
 
 filtr-item{
     /*border: 1px solid yellow;*/
-    padding: 0;
+    /*padding: 0;*/
 }
 
 portfolio-item{
@@ -147,16 +148,16 @@ portfolio-item{
 
 }
 
-portfolio-item-info, item-caption {
+.portfolio-item-info, item-caption {
     /*border: 1px solid aquamarine;*/
     /*border: 1px solid black;*/
     /*margin: auto;*/
     /*padding: 5px 10px 5px;*/
-    /*bottom: -8px;*/
-    bottom: auto;
+    bottom: -30px;
+    /*bottom: auto;*/
 }
 
-.portfolio-item-info{
+portfolio-item-info{
     /*border: 1px solid indigo;*/
     /*margin: auto;*/
 }
@@ -179,11 +180,11 @@ portfolio-item-info, item-caption {
 
 
 /* below my-projectImages with img */
-.my-projectImages img{
-    height: 275px;
-    width: 100%;
-    margin-left: 40px;
-}
+/*.my-projectImages img{*/
+    /*height: 275px;*/
+    /*width: 100%;*/
+    /*margin-left: 40px;*/
+/*}*/
 
 /*.my-projectImages img, portfolio-item img{*/
     /*height: 275px;*/
