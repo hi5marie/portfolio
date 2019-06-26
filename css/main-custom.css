@@ -1,3 +1,7 @@
+ul{
+    border: 1px solid deeppink;
+}
+
 /* // Btn CSS // */
 .simple-default-btn{
     background-color: #424242;
@@ -148,7 +152,7 @@ portfolio-item{
 
 }
 
-.portfolio-item-info, item-caption {
+portfolio-item-info, .item-caption {
     /*border: 1px solid aquamarine;*/
     /*border: 1px solid black;*/
     /*margin: auto;*/
@@ -157,9 +161,12 @@ portfolio-item{
     /*bottom: auto;*/
 }
 
-portfolio-item-info{
+.portfolio-item-info{
     /*border: 1px solid indigo;*/
-    /*margin: auto;*/
+    margin: auto;
+    bottom: 30%;
+    /*background: pink;*/
+    /*height: 90%;*/
 }
 
 /*.item-caption{*/
@@ -176,15 +183,19 @@ portfolio-item-info{
 
 .portfolio-item-info .item-caption i {
     color: crimson;
+    /*font-size: 22px;*/
+    /*padding-right: 10px;*/
 }
 
 
-/* below my-projectImages with img */
-/*.my-projectImages img{*/
-    /*height: 275px;*/
-    /*width: 100%;*/
-    /*margin-left: 40px;*/
-/*}*/
+
+
+/* below my-projectImages without img */
+.my-projectImages{
+    height: 275px;
+    width: 100%;
+    margin-left: 40px;
+}
 
 /*.my-projectImages img, portfolio-item img{*/
     /*height: 275px;*/
