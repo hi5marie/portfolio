@@ -169,7 +169,7 @@ portfolio-item-info, item-caption {
 
 .item-caption{
     /*border: 1px solid orange;*/
-    /*padding: 0;*/
+    padding: 0;
     z-index: 1;
 }
 
