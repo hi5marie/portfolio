@@ -181,8 +181,8 @@ portfolio-item-info, .item-caption {
 
 .portfolio-item-info .item-caption i {
     color: crimson;
-    /*font-size: 22px;*/
-    /*padding-right: 10px;*/
+    font-size: 22px;
+    padding-right: 10px;
 }
 
 
