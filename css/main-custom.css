@@ -149,7 +149,7 @@ portfolio-item{
 
 }
 
-portfolio-item-info, .item-caption {
+portfolio-item-info, item-caption {
     /*border: 1px solid aquamarine;*/
     /*border: 1px solid black;*/
     /*margin: auto;*/
@@ -160,17 +160,18 @@ portfolio-item-info, .item-caption {
 
 .portfolio-item-info{
     /*border: 1px solid indigo;*/
-    margin: auto;
+    /*margin: auto;*/
     /*background: pink;*/
     /*height: 90%;*/
     /*bottom: 30%;*/
-    bottom: 30px;
+    /*bottom: 30px;*/
 }
 
-/*.item-caption{*/
+.item-caption{
     /*border: 1px solid orange;*/
     /*padding: 0;*/
-/*}*/
+    z-index: 1;
+}
 
 /*.portfolio-item-info .item-caption h4 a {*/
     /*color: #eeeeee;*/
@@ -181,19 +182,24 @@ portfolio-item-info, .item-caption {
 
 .portfolio-item-info .item-caption i {
     color: crimson;
-    font-size: 22px;
-    padding-right: 10px;
+    /*font-size: 22px;*/
+    /*padding-right: 10px;*/
 }
 
 
 
 
 /* below my-projectImages without img */
-.my-projectImages{
+my-projectImages{
     height: 275px;
     width: 100%;
     margin-left: 40px;
+    z-index: -1;
 }
+.my-projectImages{
+
+}
+
 
 /*.my-projectImages img, portfolio-item img{*/
     /*height: 275px;*/
