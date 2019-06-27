@@ -14,17 +14,11 @@
     color: darkgrey;
 }
 
-
 #dyscrollup-btn:before {
-    content: "\f0aa";
     font-family: FontAwesome;
-    position: absolute;
-    left: 0;
     /*bottom: 10px;*/
     bottom: -3px;
-    /*color: #96C346;*/
     color: crimson;
-    font-size: 45px;
 }
 
 /*---///---///---///---///---///---///---///---///---///---
@@ -149,7 +143,7 @@ portfolio-item{
 
 }
 
-portfolio-item-info, item-caption {
+portfolio-item-info, .item-caption {
     /*border: 1px solid aquamarine;*/
     /*border: 1px solid black;*/
     /*margin: auto;*/
@@ -159,19 +153,24 @@ portfolio-item-info, item-caption {
 }
 
 .portfolio-item-info{
-    /*border: 1px solid indigo;*/
+    border: 1px solid indigo;
     /*margin: auto;*/
     /*background: pink;*/
     /*height: 90%;*/
     /*bottom: 30%;*/
-    /*bottom: 30px;*/
+    bottom: 30px;
 }
 
 .item-caption{
     /*border: 1px solid orange;*/
     padding: 0;
-    z-index: 1;
 }
+
+/*/ D added below /*/
+
+/*.item-caption ul{*/
+    /*z-index:1;*/
+/*}*/
 
 /*.portfolio-item-info .item-caption h4 a {*/
     /*color: #eeeeee;*/
@@ -182,24 +181,20 @@ portfolio-item-info, item-caption {
 
 .portfolio-item-info .item-caption i {
     color: crimson;
-    /*font-size: 22px;*/
+    font-size: 22px;
     /*padding-right: 10px;*/
+    padding-right: 20px;
 }
 
 
 
 
 /* below my-projectImages without img */
-my-projectImages{
+.my-projectImages{
     height: 275px;
     width: 100%;
     margin-left: 40px;
-    z-index: -1;
 }
-.my-projectImages{
-
-}
-
 
 /*.my-projectImages img, portfolio-item img{*/
     /*height: 275px;*/
@@ -454,7 +449,7 @@ contact{
 }
 .navbar-nav>.active>a {
     color: crimson !important;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.63);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.63);
 
 }
 
