@@ -133,7 +133,7 @@ portfolio-nav{
 
 .filtr-item{
     /*border: 1px solid yellow;*/
-    border: 0.5px solid navajowhite;
+    border: 0.5px solid navy;
     /*padding: 0;*/
     padding: 5px;
 }
@@ -242,16 +242,16 @@ portfolio-item{
 /*}*/
 
 .portfolio-item img{
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     /*width: 100%;*/
     /*margin-left: 50px;*/
-    padding: 15px;
+    /*padding: 20px;*/
 }
 
-.portfolio-item{
-    border: 1px solid purple;
-    top: 35px;
 
+.portfolio-item{
+    /*border: 2px solid purple;*/
+    /*margin-left: 50px;*/
 }
 .myProject-desc{
     font-size: 12px;
