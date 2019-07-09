@@ -152,10 +152,10 @@ portfolio-item{
     /*padding: 5px 0 5px 0;*/
     /*padding: 0;*/
     /*bottom: -30px;*/
-    z-index: 1;
-    top: -35px;
+    /*top: -35px;*/
     /*padding: 5px 10px 5px;*/
-
+    /*z-index: 1;*/
+    z-index: auto;
 }
 
 /*.portfolio-item-info{*/
