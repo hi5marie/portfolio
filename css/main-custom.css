@@ -115,12 +115,14 @@ portfolio-col{
 }
 
 .portfolio-section.section-default{
-    background: #1d1d1d;
-    /*background-color: black;*/
+    border: 1px solid yellow;
+    /*background: #1d1d1d;*/
     /*color: white;*/
-    /*border: 1px solid aqua;*/
+    padding: 120px 0 90px;
 
 }
+
+
 
 
 portfolio-nav{
@@ -340,9 +342,9 @@ icon_name{
 
 
 .service-section.section-default{
-    background-color: black;
+    background-color: pink;
     /*padding: 120px 0 40px;*/
-    padding: 120px 0 40px 0;
+    /*padding: 120px 0 40px 0;*/
 
 }
 
