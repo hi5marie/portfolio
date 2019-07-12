@@ -1,3 +1,7 @@
+#work{
+    border: 5px solid lime;
+    padding: 20px;
+}
 
 /* // Btn CSS // */
 .simple-default-btn{
@@ -25,7 +29,7 @@
     04. Welcome CSS
 ---///---///---///---///---///---///---///---///---///---*/
 
-.welcome-section {
+welcome-section {
     /*padding: 220px 0 0;*/
     position: relative;
     background-image: url(../images/screenshort/backgroundcode.png);
@@ -86,7 +90,7 @@
     05. Welcome two CSS
 ---///---///---///---///---///---///---///---///---///---*/
 
-welcome-section-two{
+.welcome-section-two{
     background-size: cover;
     /*background-position: center;*/
     background-repeat: no-repeat;
@@ -115,11 +119,9 @@ portfolio-col{
 }
 
 .portfolio-section.section-default{
-    border: 1px solid yellow;
+    background-color: lightgray;
     /*background: #1d1d1d;*/
     /*color: white;*/
-    padding: 120px 0 90px;
-
 }
 
 
@@ -133,10 +135,13 @@ portfolio-nav{
     /*color: white;*/
 /*}*/
 
+.filtr-container{
+    background-color: lightskyblue;
+}
+
 .filtr-item{
     /*border: 1px solid yellow;*/
-    border: 0.5px solid navy;
-    /*padding: 0;*/
+    border: 0.5px solid deeppink;
     padding: 5px;
 }
 
@@ -147,32 +152,28 @@ portfolio-item{
 
 }
 
-.portfolio-item-info .item-caption {
-    border: 1px solid aquamarine;
-    /*border: 1px solid black;*/
-    /*margin: auto;*/
-    /*padding: 5px 0 5px 0;*/
-    /*padding: 0;*/
-    /*bottom: -30px;*/
-    /*top: -35px;*/
-    /*padding: 5px 10px 5px;*/
-    /*z-index: 1;*/
-    z-index: auto;
+/*.portfolio-item-info .item-caption {*/
+    /*border: 1px solid aquamarine;*/
+    /*!*border: 1px solid black;*!*/
+    /*!*margin: auto;*!*/
+    /*!*padding: 5px 0 5px 0;*!*/
+    /*!*padding: 0;*!*/
+    /*!*bottom: -30px;*!*/
+    /*!*top: -35px;*!*/
+    /*!*padding: 5px 10px 5px;*!*/
+    /*!*z-index: 1;*!*/
+/*}*/
+
+.portfolio-item-info{
+    /*background: pink;*/
+    /*height: 90%;*/
+    /*bottom: 30%;*/
+    /*bottom: 30px;*/
 }
 
-/*.portfolio-item-info{*/
-    /*border: 1px solid indigo;*/
-    /*!*margin: auto;*!*/
-    /*!*background: pink;*!*/
-    /*!*height: 90%;*!*/
-    /*!*bottom: 30%;*!*/
-    /*bottom: 30px;*/
-/*}*/
-
-/*.item-caption{*/
-    /*border: 1px solid orange;*/
-    /*padding: 0;*/
-/*}*/
+.item-caption{
+    border: 1px solid orange;
+}
 
 /*/ D added below /*/
 
@@ -194,12 +195,12 @@ portfolio-item{
     /*padding: 0;*/
 }
 
-.portfolio-item .portfolio-item-info{
-    /*border: 3px solid navy;*/
-    border: 2px solid orangered;
-    /*margin: -20px 0px;*/
-    padding: 0;
-}
+/*.portfolio-item .portfolio-item-info{*/
+    /*!*border: 3px solid navy;*!*/
+    /*border: 3px solid orange;*/
+    /*!*margin: -20px 0px;*!*/
+    /*!*padding: 0;*!*/
+/*}*/
 
 /*.portfolio-item .portfolio-item-info:before{*/
     /*border: 1px solid navy;*/
@@ -208,15 +209,15 @@ portfolio-item{
 
 
 .modalIcon{
-    /*border: 1px solid darkcyan;*/
-    margin: 0;
-    padding: 5px;
+    border: 1px solid darkcyan;
+    /*margin: 0;*/
+    /*padding: 5px;*/
 
 }
 .linkIcon{
-    /*border: 1px solid #a62c46;*/
-    margin: 0;
-    padding: 0;
+    border: 1px solid #a62c46;
+    /*margin: 0;*/
+    /*padding: 0;*/
 }
 
 /* below my-projectImages without img */
@@ -353,6 +354,7 @@ icon_name{
 }
 
 .default-title h2{
+    border: 1px solid purple;
     font-weight: normal;
     color: white;
 }
