@@ -142,7 +142,7 @@ portfolio-nav{
 .filtr-item{
     /*border: 1px solid yellow;*/
     border: 0.5px solid deeppink;
-    padding: 5px;
+    /*padding: 5px;*/
 }
 
 portfolio-item{
@@ -152,27 +152,28 @@ portfolio-item{
 
 }
 
-/*.portfolio-item-info .item-caption {*/
-    /*border: 1px solid aquamarine;*/
-    /*!*border: 1px solid black;*!*/
-    /*!*margin: auto;*!*/
-    /*!*padding: 5px 0 5px 0;*!*/
-    /*!*padding: 0;*!*/
-    /*!*bottom: -30px;*!*/
-    /*!*top: -35px;*!*/
-    /*!*padding: 5px 10px 5px;*!*/
-    /*!*z-index: 1;*!*/
-/*}*/
+portfolio-item-info .item-caption {
+    border: 1px solid aquamarine;
+    /*border: 1px solid black;*/
+    /*margin: auto;*/
+    /*padding: 5px 0 5px 0;*/
+    /*padding: 0;*/
+    /*bottom: -30px;*/
+    /*top: -35px;*/
+    /*padding: 5px 10px 5px;*/
+    z-index: 1;
+}
 
 .portfolio-item-info{
-    /*background: pink;*/
-    /*height: 90%;*/
+    background: pink;
+    /*height: 10%;*/
     /*bottom: 30%;*/
     /*bottom: 30px;*/
 }
 
 .item-caption{
     border: 1px solid orange;
+    left: 0px;
 }
 
 /*/ D added below /*/
@@ -208,13 +209,13 @@ portfolio-item{
 /*}*/
 
 
-.modalIcon{
+modalIcon{
     border: 1px solid darkcyan;
     /*margin: 0;*/
     /*padding: 5px;*/
 
 }
-.linkIcon{
+linkIcon{
     border: 1px solid #a62c46;
     /*margin: 0;*/
     /*padding: 0;*/
@@ -222,18 +223,28 @@ portfolio-item{
 
 /* below my-projectImages without img */
 .my-projectImages{
-    height: 275px;
-    width: 100%;
+    border: 3px solid cyan;
+    /*height: 275px;*/
+    /*width: 100%;*/
     /*margin-left: 40px;*/
-    /*margin-left: 70px;*/
+    z-index: 1;
 }
 
-/*.my-projectImages, .portfolio-item img{*/
-    /*border: 1px solid red;*/
-    /*!*height: 275px;*!*/
+/*.portfolio-item img{*/
+    /*border: 2px solid green;*/
     /*!*width: 100%;*!*/
-    /*margin-left: 45px;*/
+    /*!*margin-left: 50px;*!*/
+    /*!*padding: 20px;*!*/
 /*}*/
+
+my-projectImages, .portfolio-item img{
+    border: 1px solid red;
+    height: 275px;
+    width: 100%;
+    margin-left: 40px;
+    /*margin-top: 20px;*/
+}
+
 
 /*.portfolio-item img{*/
     /*border: 3px solid fuchsia;*/
@@ -244,17 +255,9 @@ portfolio-item{
     /*padding: 0;*/
 /*}*/
 
-.portfolio-item img{
-    /*border: 2px solid green;*/
-    /*width: 100%;*/
-    /*margin-left: 50px;*/
-    /*padding: 20px;*/
-}
-
 
 .portfolio-item{
-    /*border: 2px solid purple;*/
-    /*margin-left: 50px;*/
+    border: 2px solid purple;
 }
 .myProject-desc{
     font-size: 12px;
