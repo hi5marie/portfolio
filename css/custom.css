@@ -51,8 +51,9 @@ modalIcon{
     /*padding: 5px;*/
 
 }
-linkIcon{
-    border: 1px solid #a62c46;
+.linkIcon, .modalIcon{
+    /*border: 1px solid #a62c46;*/
+    color: darkred;
     /*margin: 0;*/
     /*padding: 0;*/
 }
@@ -104,22 +105,20 @@ linkIcon{
     /*padding: 0;*/
 }
 
-.portfolio-item-info .item-caption li{
-    color: darkred;
-}
 
-.portfolio-item, .item-caption i{
-    color: crimson;
+.portfolio-item .item-caption i{
     /*border: 1px solid orange;*/
     /*background: floralwhite;*/
+    color: darkred;
+
     text-align: left;
-    /*font-size: 18px;*/
-    /*margin: 0;*/
     /*padding: 0;*/
+    /*margin: 5px 0px 0px -10px;*/
 }
 
 .filtr-item{
     /*border: 3px solid lime;*/
+    background: black;
 }
 
 .portfolio-item-info .item-caption h4{
@@ -193,12 +192,13 @@ about{
 /*}*/
 
 .myProject-desc{
-    font-size: 13px;
+    width: 100%;
+    font-size: 12px;
     line-height: normal;
     font-weight: normal;
     background-color: gray();
     color: white;
-    margin: auto;
+    margin: 0;
 }
 
 .default-title h2{
