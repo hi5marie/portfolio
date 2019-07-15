@@ -119,6 +119,7 @@ modalIcon{
 .filtr-item{
     /*border: 3px solid lime;*/
     background: black;
+    padding: 0;
 }
 
 .portfolio-item-info .item-caption h4{
