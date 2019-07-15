@@ -1,3 +1,50 @@
+#work{
+    /*border: 5px solid lime;*/
+    padding: 20px;
+}
+
+/* // Btn CSS // */
+.simple-default-btn{
+    background-color: #424242;
+    color: white;
+}
+
+.btn-black {
+    background: #111111;
+}
+
+.simple-default-btn.btn-black{
+    background-color: dimgrey;
+    color: darkgrey;
+}
+
+#dyscrollup-btn:before {
+    font-family: FontAwesome;
+    /*bottom: 10px;*/
+    bottom: -3px;
+    color: crimson;
+}
+
+/*---///---///---///---///---///---///---///---///---///---
+    03. Header CSS
+---///---///---///---///---///---///---///---///---///---*/
+
+.main-nav{
+    /*background: transparent;*/
+    background-color: black;
+}
+
+.main-nav .navbar-nav>li>a:hover {
+    /*color: #96C346;*/
+    color: crimson;
+}
+.navbar-nav>.active>a {
+    color: crimson !important;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.63);
+
+}
+
+
 modalIcon{
     border: 1px solid darkcyan;
     /*margin: 0;*/
@@ -34,21 +81,22 @@ linkIcon{
 
 .portfolio-item-info{
     /*border: 1px solid deeppink;*/
-    /*height: 80%;*/
-    /*width: 100%;*/
-    /*padding: 0;*/
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
-/*.portfolio-item .portfolio-item-info:before{*/
-    /*height: 80%;*/
-    /*width: 100%;*/
-    /*!*width: 80%;*!*/
-    /*margin: 0;*/
-    /*padding: 0;*/
+.portfolio-item .portfolio-item-info:before{
+    height: 80%;
+    width: 100%;
+    /*width: 80%;*/
+    margin: 0;
+    padding: 0;
 
-/*}*/
+}
 
 .portfolio-item .portfolio-item-info:before {
-    background: navy;
+    /*background: navy;*/
     /*height: 100%;*/
     /*width: 100%;*/
     /* width: 80%; */
@@ -56,18 +104,27 @@ linkIcon{
     /*padding: 0;*/
 }
 
+.portfolio-item-info .item-caption li{
+    color: darkred;
+}
 
-.portfolio-item, item-caption{
+.portfolio-item, .item-caption i{
+    color: crimson;
     /*border: 1px solid orange;*/
     /*background: floralwhite;*/
     text-align: left;
     /*font-size: 18px;*/
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    /*padding: 0;*/
 }
 
 .filtr-item{
     /*border: 3px solid lime;*/
+}
+
+.portfolio-item-info .item-caption h4{
+    /*border: 1px solid aqua;*/
+    color: darkred;
 }
 
 .myProject-title{
@@ -75,11 +132,15 @@ linkIcon{
 }
 
 .myProject-list li{
+    color: darkred;
     display: inline-block;
 }
 
 
-
+.welcome-col h1 {
+    /*color: #96c346;*/
+    color: crimson;
+}
 
 .welcome-section-two{
     background-size: cover;
@@ -104,7 +165,8 @@ linkIcon{
 .portfolio-section.section-default, .info-box{
     background-color: pink;
     /*background: #1d1d1d;*/
-    color: white;
+    background-color: black;
+    /*color: white;*/
     padding: 30px 0 5px;
 }
 
@@ -213,7 +275,7 @@ service-icon i{
     content: "";
     height: 165px;
     width: 120px;
-    border: 1px solid aqua;
+    /*border: 1px solid aqua;*/
     color: white;
 
     /*left: -1px;*/
