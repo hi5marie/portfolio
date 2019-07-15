@@ -33,7 +33,7 @@ linkIcon{
 
 
 .portfolio-item-info{
-    border: 1px solid deeppink;
+    /*border: 1px solid deeppink;*/
     /*height: 80%;*/
     /*width: 100%;*/
     /*padding: 0;*/
@@ -58,7 +58,7 @@ linkIcon{
 
 
 .portfolio-item, item-caption{
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     /*background: floralwhite;*/
     text-align: left;
     /*font-size: 18px;*/
@@ -71,7 +71,7 @@ linkIcon{
 }
 
 .myProject-title{
-    border: 1px solid aqua;
+    /*border: 1px solid aqua;*/
 }
 
 .myProject-list li{
