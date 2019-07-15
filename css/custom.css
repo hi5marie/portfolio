@@ -18,19 +18,25 @@ linkIcon{
 
 .portfolio-item:hover img{
     border: 1px solid darkred;
-    opacity: 0.5;
-    /*z-index: -1;*/
+    /*opacity: 0.5;*/
+    z-index: -1;
     margin-left: 70px;
     /*bottom: 30px;*/
     /*margin: 0;*/
 }
 
+/*.porfolio-item:hover img{*/
+    /*border: 1px solid darkred;*/
+    /*opacity: 0.5;*/
+    /*margin: 0 0 60px;*/
+/*}*/
+
+
 .portfolio-item-info{
     border: 1px solid deeppink;
-    height: 80%;
-    width: 100%;
-
-    padding: 0;
+    /*height: 80%;*/
+    /*width: 100%;*/
+    /*padding: 0;*/
 }
 /*.portfolio-item .portfolio-item-info:before{*/
     /*height: 80%;*/
@@ -42,15 +48,16 @@ linkIcon{
 /*}*/
 
 .portfolio-item .portfolio-item-info:before {
-    height: 100%;
-    width: 100%;
+    background: navy;
+    /*height: 100%;*/
+    /*width: 100%;*/
     /* width: 80%; */
-    margin: auto -21px;
-    padding: 0;
+    /*margin: auto -21px;*/
+    /*padding: 0;*/
 }
 
 
-.portfolio-item .item-caption{
+.portfolio-item, item-caption{
     border: 1px solid orange;
     /*background: floralwhite;*/
     text-align: left;
@@ -124,10 +131,10 @@ about{
 /*}*/
 
 .myProject-desc{
-    font-size: 15px;
+    font-size: 13px;
     line-height: normal;
     font-weight: normal;
-    background-color: lightskyblue;
+    background-color: gray();
     color: white;
     margin: auto;
 }
@@ -223,10 +230,10 @@ contact{
     background-color: black;
 }
 
-@media screen and (min-width: 992px){
-    div.col-md-4 {
-        width: 20%;
-        margin: auto;
-        left: 20px;
-    }
-}
+/*@media screen and (min-width: 992px){*/
+    /*div.col-md-4 {*/
+        /*width: 20%;*/
+        /*margin: auto;*/
+        /*left: 20px;*/
+    /*}*/
+/*}*/
