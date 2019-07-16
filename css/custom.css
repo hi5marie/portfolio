@@ -80,21 +80,14 @@
     padding: 0;
     margin: 0;
 }
-.portfolio-item .portfolio-item-info:before{
-    height: 80%;
-    width: 100%;
-    /*width: 80%;*/
-    margin: 0;
-    padding: 0;
-
-}
 
 .portfolio-item .portfolio-item-info:before {
     /*background: navy;*/
     /*height: 100%;*/
-    /*width: 100%;*/
-    /* width: 80%; */
-    margin: auto -21px;
+    width: 100%;
+     /*width: 80%;*/
+    /*margin: auto -21px;*/
+    margin: 0;
     /*padding: 0;*/
 }
 
@@ -110,7 +103,7 @@
 }
 
 .filtr-container{
-    background-color: lightskyblue;
+    /*background-color: lightskyblue;*/
     margin: auto;
 }
 
@@ -187,10 +180,11 @@
 }
 
 .my-projectImages{
-    border: 1px solid #a62c46;
+    /*border: 1px solid #a62c46;*/
     height: 275px;
     width: 100%;
     /*margin-left: 45px;*/
+    margin: auto;
 }
 
 /*p.myProject-desc {*/
