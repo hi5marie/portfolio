@@ -182,9 +182,10 @@
 .my-projectImages{
     /*border: 1px solid #a62c46;*/
     height: 275px;
-    width: 100%;
+    /*width: 100%;*/
     /*margin-left: 45px;*/
-    margin: auto;
+    /*margin: auto;*/
+    padding: 10px 25px 10px 45px;
 }
 
 /*p.myProject-desc {*/
