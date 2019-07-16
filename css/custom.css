@@ -61,7 +61,7 @@
     border: 1px solid darkred;
     /*opacity: 0.5;*/
     z-index: -1;
-    margin-left: 70px;
+    /*margin-left: 70px;*/
     /*bottom: 30px;*/
     /*margin: 0;*/
 }
@@ -84,7 +84,7 @@
 .portfolio-item .portfolio-item-info:before {
     /*background: navy;*/
     /*height: 100%;*/
-    width: 100%;
+    /*width: 100%;*/
      /*width: 80%;*/
     /*margin: auto -21px;*/
     margin: 0;
