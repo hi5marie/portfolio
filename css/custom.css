@@ -145,8 +145,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../images/screenshort/backgroundcode.png);
-    padding: 220px 0 0;
-
+    /*padding: 220px 0 0;*/
+    padding: 0;
 }
 
 .logo-terrado{
@@ -161,22 +161,29 @@
 }
 
 .portfolio-section.section-default, .info-box{
-    background-color: pink;
+    color: whitesmoke;
     /*background: #1d1d1d;*/
     background-color: black;
-    /*color: white;*/
-    padding: 30px 0 5px;
+    padding: 50px 0 5px;
 }
 
-about{
-    border: 1px solid lime;
+/*---///---///---///---///---///---///---///---///---///---
+    06. About CSS
+---///---///---///---///---///---///---///---///---///---*/
+
+
+.about-section{
+    /*border: 1px solid aqua;*/
 }
 
-
+.about-two-section{
+    padding: 60px 0;
+}
 
 .about-two-section, .about-col h2{
     background-color: black;
     color: white;
+    /*padding: 50px 0;*/
 }
 
 .my-projectImages{
@@ -368,8 +375,57 @@ service-icon i{
     /*margin: 0px 0px 30px -20px;*/
 }
 
-contact{
+
+/*---///---///---///---///---///---///---///---///---///---
+    12. Contact CSS Reach Me Section
+---///---///---///---///---///---///---///---///---///---*/
+
+
+#contact{
     background-color: black;
+}
+
+/*#contact, .contact-sec.section-default{*/
+    /*background-color: darkgray;*/
+/*}*/
+
+.over-layer-white:before {
+    background-color: black;
+}
+
+.contact-sec.section-default {
+    background: #111111;
+    padding: 55px 0 80px;
+
+}
+
+.contact-title{
+    padding-bottom: 25px;
+}
+
+.contact-title h2{
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 20px;
+    /*background: #111111;*/
+}
+
+.contact-title h2:after{
+    background: black;
+}
+
+form-messages{
+    color: white;
+    font-size: 15px;
+}
+
+.contact-sec form .form-control input{
+    color: white;
+    font-size: 15px;
 }
 
 /*@media screen and (min-width: 992px){*/
