@@ -17,7 +17,7 @@
     font-family: FontAwesome;
     /*bottom: 10px;*/
     bottom: -3px;
-    color: crimson;
+    color: darkred;
 }
 
 /*---///---///---///---///---///---///---///---///---///---
@@ -30,7 +30,6 @@
 }
 
 .main-nav .navbar-nav>li>a:hover {
-    /*color: #96C346;*/
     color: crimson;
 }
 .navbar-nav>.active>a {
@@ -51,6 +50,11 @@
     /*background-color: floralwhite;*/
 }
 
+.portfolio-item{
+    border-style: outset;
+    /*border: 0.5px solid white;*/
+    /*border: 1px solid black;*/
+}
 
 .portfolio-item:hover img{
     border: 1px solid darkred;
@@ -98,7 +102,7 @@
 }
 
 .filtr-container{
-    /*background-color: lightskyblue;*/
+    background-color: black;
     margin: auto;
 }
 
@@ -122,10 +126,29 @@
     display: inline-block;
 }
 
-.welcome-col h1 {
-    /*color: #96c346;*/
-    color: crimson;
+.nameContainer{
+    margin-top: -70px;
 }
+
+.myHeading h1{
+    color: darkred;
+    /*color: white;*/
+    /*font-family: Amiko;*/
+    font-style: normal;
+    /*font-weight: normal;*/
+    font-size: 80px;
+    margin-top: -70px;
+
+}
+
+/*.welcome-col h1 {*/
+    /*!*color: #96c346;*!*/
+    /*color: darkred;*/
+    /*!*font-family: Amiko;*!*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*!*font-size: 70px;*!*/
+/*}*/
 
 .welcome-col ul li a i:hover {
     /*border-color: #96C346;*/
@@ -166,7 +189,9 @@
 ---///---///---///---///---///---///---///---///---///---*/
 
 #about{
-    border-style: inset;
+    /*border-style: outset;*/
+    background: #1d1d1d;
+
 }
 
 .about-section{
@@ -174,19 +199,21 @@
 }
 
 .about-two-section{
-    padding: 60px 0;
-    font-size: 15px;
+    /*padding: 60px 0;*/
 }
 
 .about-two-section, .about-col h2{
-    background-color: black;
+    /*background-color: black;*/
     color: white;
     /*padding: 50px 0;*/
 }
 
+.myPicContainer{
+
+}
 
 #myPicture{
-    border-style: inset;
+    /*border-style: inset;*/
     /*max-width: 70%;*/
     width: auto;
     margin: auto;
@@ -202,8 +229,8 @@
 
 @media screen and (max-width: 601px){
     #myPicture{
-        /*padding: 60px;*/
-        width: 50%;
+        padding: 30px;
+        /*width: 50%;*/
     }
 }
 
@@ -485,4 +512,12 @@ form-messages{
         color: white;
         margin: 0px 0 5px 10px;
     }
+}
+
+@media only screen and (max-width: 380px){
+    .myHeading h1 {
+        font-size: 45px;
+        margin-top: 0;
+    }
+
 }
