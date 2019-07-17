@@ -136,9 +136,7 @@
     /*font-family: Amiko;*/
     font-style: normal;
     /*font-weight: normal;*/
-    font-size: 80px;
-    margin-top: -70px;
-
+    font-size: 65px;
 }
 
 /*.welcome-col h1 {*/
@@ -259,7 +257,7 @@
 }
 
 .default-title h2{
-    background: black;
+    /*background: black;*/
     color: white;
     font-weight: normal;
 }
@@ -274,7 +272,7 @@ mySkills{
 
 #myIconContainer{
     /*border: 1px solid aqua;*/
-    /*margin: auto;*/
+    margin: auto;
 }
 
 .icon_name{
@@ -300,9 +298,7 @@ mySkills{
 .service-section.section-default{
     /*background-color: pink;*/
     background: #111111;
-    /*padding: 120px 0 40px 0;*/
-    /*padding: 120px 0 40px;*/
-    padding: 60px 0 40px;
+    /*padding: 60px 0 40px;*/
 }
 
 /*service-icon i{*/
@@ -329,18 +325,18 @@ mySkills{
 .serviceBox .service-icon{
     width: 100px;
     background: white;
-    font-size: 60px;
+    /*font-size: 60px;*/
     /*left: 30px;*/
     /*margin: 0;*/
-    transform: scale(0.9, 0.9);
+    /*transform: scale(0.9, 0.9);*/
 
 }
 
 .serviceBox .service-icon{
     border-radius: 5px;
     /*background: #111111;*/
-    top: 15px;
-    /*transform: scale(1.0, 1.0);*/
+    /*top: 15px;*/
+    transform: scale(1.0, 1.0);
     /*transform: scale(0.7, 0.7);*/
 }
 
@@ -350,14 +346,15 @@ mySkills{
     /*background-color: white;*/
     background-color: black;
     /*border: 2px solid white;*/
-    top: -25px;
+    /*top: -25px;*/
+    top: -3px;
 }
 
 
 .serviceBox:hover .service-icon:after{
     /*background-color: black;*/
-    /*opacity: 1;*/
-    opacity: 0;
+    opacity: 1;
+    /*opacity: 0;*/
     /*transform: scale(0.6, 0.6);*/
     transform: scale(1.0, 1.0);
 }
@@ -399,11 +396,11 @@ mySkills{
 }
 
 .serviceBox .service-icon:after{
-    opacity: 0.5;
+    /*opacity: 0.5;*/
     /*border: 4px solid aqua;*/
     border: 4px solid black;
     /*transform: scale(0.7, 0.7);*/
-    transform: scale(1.0, 1.0);
+    /*transform: scale(1.0, 1.0);*/
     /*background: white;*/
 }
 
@@ -417,7 +414,7 @@ mySkills{
     top: -20px;
     left: -20px;
     /*opacity: 0;*/
-    /*transform: scale(0.8, 0.8);*/
+    transform: scale(0.8, 0.8);
     transition: all 500ms ease 0s;
 }
 
@@ -505,12 +502,11 @@ form-messages{
         /*margin: 0px -35px 0px 10px;*/
         /*margin: 0 -60px 0 20px;*/
         /*margin: 5px 0 0;*/
-        /*margin: auto;*/
     }
     .serviceBox .title{
         font-size: 15px;
         color: white;
-        margin: 0px 0 5px 10px;
+        /*margin: 0px 0 5px 10px;*/
     }
 }
 
