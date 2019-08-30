@@ -5,7 +5,7 @@ require_once('phpmailer/PHPMailer/src/PHPMailer.php');
 require_once('phpmailer/PHPMailer/src/SMTP.php');
 
 $mail = new PHPMailer\PHPMailer\PHPMailer;
-$mail->SMTPDebug = 0;           // Enable verbose debug output. Change to 0 to disable debugging output.
+$mail->SMTPDebug = 3;           // Enable verbose debug output. Change to 0 to disable debugging output.
 
 $mail->isSMTP();                // Set mailer to use SMTP.
 $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers.
@@ -24,11 +24,11 @@ $options = array(
     )
 );
 $mail->smtpConnect($options);
-$mail->From = 'hi5marieterrado@gmail.com';  // sender's email address (shows in "From" field)
-$mail->FromName = 'mailer daemon';   // sender's name (shows in "From" field)
-$mail->addAddress('mtterrado@gmail.com', 'The great and powerful Marie of oz');  // Add a recipient (name is optional)
+$mail->From = 'example@gmail.com';  // sender's email address (shows in "From" field)
+$mail->FromName = 'Example Name';   // sender's name (shows in "From" field)
+$mail->addAddress('recipient1@example.com', 'First Recipient\'s name');  // Add a recipient (name is optional)
 //$mail->addAddress('ellen@example.com');                        // Add a second recipient
-$mail->addReplyTo("{$_POST['email']}");                          // Add a reply-to address
+$mail->addReplyTo('example@gmail.com');                          // Add a reply-to address
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
 
@@ -37,14 +37,8 @@ $mail->addReplyTo("{$_POST['email']}");                          // Add a reply-
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Here is the subject';
-$mail->Body    = "
-    Message from {$_POST['name']}<br>
-    subject: {$_POST['subject']}<br>
-    message: {$_POST['message']}<br>
-    phone: {$_POST['phone']}<br>
-    email from:{$_POST['email']}<br>
-    ";
-$mail->AltBody = htmlentities($mail->Body);
+$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';
