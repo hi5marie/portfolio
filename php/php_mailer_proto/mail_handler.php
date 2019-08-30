@@ -24,11 +24,11 @@ $options = array(
     )
 );
 $mail->smtpConnect($options);
-$mail->From = 'hi5marieterrado@gmil.com';  // sender's email address (shows in "From" field)
-$mail->FromName = 'mailer daemon';   // sender's name (shows in "From" field)
-$mail->addAddress('mtterrado@gmail', 'The great and powerful Marie of oz');  // Add a recipient (name is optional)
+$mail->From = 'example@gmail.com';  // sender's email address (shows in "From" field)
+$mail->FromName = 'Example Name';   // sender's name (shows in "From" field)
+$mail->addAddress('recipient1@example.com', 'First Recipient\'s name');  // Add a recipient (name is optional)
 //$mail->addAddress('ellen@example.com');                        // Add a second recipient
-$mail->addReplyTo("{$_POST['email']} <{$_POST['name']}>");                          // Add a reply-to address
+$mail->addReplyTo('example@gmail.com');                          // Add a reply-to address
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
 
@@ -37,13 +37,8 @@ $mail->addReplyTo("{$_POST['email']} <{$_POST['name']}>");                      
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Here is the subject';
-$mail->Body    = "
-    subject: {$_POST['subject']}
-    message: {$_POST['message']}
-    phone: {$_POST['phone']}
-    email from:{$_POST['email']}
-    ";
-$mail->AltBody = htmlentities($mail->Body);
+$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';
