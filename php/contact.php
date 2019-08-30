@@ -24,11 +24,11 @@ $options = array(
     )
 );
 $mail->smtpConnect($options);
-$mail->From = 'hi5marieterrado@gmil.com';  // sender's email address (shows in "From" field)
+$mail->From = 'hi5marieterrado@gmail.com';  // sender's email address (shows in "From" field)
 $mail->FromName = 'mailer daemon';   // sender's name (shows in "From" field)
-$mail->addAddress('mtterrado@gmail', 'The great and powerful Marie of oz');  // Add a recipient (name is optional)
+$mail->addAddress('mtterrado@gmail.com', 'The great and powerful Marie of oz');  // Add a recipient (name is optional)
 //$mail->addAddress('ellen@example.com');                        // Add a second recipient
-$mail->addReplyTo("{$_POST['email']} <{$_POST['name']}>");                          // Add a reply-to address
+$mail->addReplyTo("{$_POST['email']}");                          // Add a reply-to address
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
 
@@ -38,6 +38,7 @@ $mail->isHTML(true);                                  // Set email format to HTM
 
 $mail->Subject = 'Here is the subject';
 $mail->Body    = "
+    Message from {$_POST['name']}
     subject: {$_POST['subject']}
     message: {$_POST['message']}
     phone: {$_POST['phone']}
