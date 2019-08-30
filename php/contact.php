@@ -5,7 +5,7 @@ require_once('phpmailer/PHPMailer/src/PHPMailer.php');
 require_once('phpmailer/PHPMailer/src/SMTP.php');
 
 $mail = new PHPMailer\PHPMailer\PHPMailer;
-$mail->SMTPDebug = 3;           // Enable verbose debug output. Change to 0 to disable debugging output.
+$mail->SMTPDebug = 0;           // Enable verbose debug output. Change to 0 to disable debugging output.
 
 $mail->isSMTP();                // Set mailer to use SMTP.
 $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers.
@@ -38,11 +38,11 @@ $mail->isHTML(true);                                  // Set email format to HTM
 
 $mail->Subject = 'Here is the subject';
 $mail->Body    = "
-    Message from {$_POST['name']}
-    subject: {$_POST['subject']}
-    message: {$_POST['message']}
-    phone: {$_POST['phone']}
-    email from:{$_POST['email']}
+    Message from {$_POST['name']}<br>
+    subject: {$_POST['subject']}<br>
+    message: {$_POST['message']}<br>
+    phone: {$_POST['phone']}<br>
+    email from:{$_POST['email']}<br>
     ";
 $mail->AltBody = htmlentities($mail->Body);
 
