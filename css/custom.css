@@ -447,7 +447,8 @@ mySkills{
 }
 
 .contact-title{
-    padding-bottom: 25px;
+    /*padding-bottom: 25px;*/
+    padding-bottom: 0;
 }
 
 .contact-title h2{
