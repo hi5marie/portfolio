@@ -154,11 +154,18 @@
     color: #ffffff;
 }
 
+/*.welcome-section-two{*/
+    /*background-color: white;*/
+
+/*}*/
+
 .welcome-section-two{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../images/screenshort/backgroundcode.png);
+    background-image: url(../images/screenshort/new_background.png);
+
+    /*background-image: url(../images/screenshort/backgroundcode.png);*/
     /*padding: 220px 0 0;*/
     padding: 0;
 }
