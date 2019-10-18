@@ -217,16 +217,17 @@ myHeading h1{
 
 }
 
-#work{
-    /*border: 5px solid lime;*/
-    padding: 50px 0 5px;
-}
+/*#work{*/
+    /*!*border: 5px solid lime;*!*/
+    /*padding: 50px 0 5px;*/
+/*}*/
 
 .portfolio-section.section-default, .info-box{
     color: whitesmoke;
     /*background: #1d1d1d;*/
     background-color: black;
-    padding: 50px 0 5px;
+    /*padding: 50px 0 5px;*/
+
 }
 
 /*---///---///---///---///---///---///---///---///---///---
