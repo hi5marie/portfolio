@@ -236,7 +236,7 @@ myHeading h1{
 
 #about{
     /*border-style: outset;*/
-    background: #1d1d1d;
+    background: black;
 
 }
 
@@ -255,7 +255,8 @@ myHeading h1{
 }
 
 .myPicContainer{
-    background-color: white;
+    /*background-color: white;*/
+    background-color: black;
 }
 
 .about-two-section .about-col img{
