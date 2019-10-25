@@ -275,9 +275,8 @@ myHeading h1{
 
 @media screen and (min-width: 601px){
     #myPicture{
-        /*padding: 100px;*/
-        padding: 0;
-        max-width: 40%;
+        padding: 25px;
+        /*max-width: 40%;*/
     }
 
 }
@@ -495,9 +494,7 @@ mySkills{
 }
 
 .contact-sec.section-default {
-    background: #111111;
-    padding: 55px 0 80px;
-
+    /*background: #111111;*/
 }
 
 .contact-title{
