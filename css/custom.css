@@ -81,7 +81,7 @@
 }
 
 .portfolio-item .portfolio-item-info:before {
-    border: navy;
+    border: cadetblue;
     /*height: 100%;*/
     /*width: 100%;*/
      /*width: 80%;*/
@@ -94,7 +94,7 @@
 .portfolio-item .item-caption i{
     /*border: 1px solid orange;*/
     /*background: floralwhite;*/
-    color: midnightblue;
+    color: cadetblue;
 
     text-align: left;
     /*padding: 0;*/
@@ -385,7 +385,7 @@ mySkills{
 .serviceBox .service-icon{
     width: 100px;
     background: white;
-    /*font-size: 60px;*/
+    font-size: 80px;
     /*left: 30px;*/
     /*margin: 0;*/
     /*transform: scale(0.9, 0.9);*/
