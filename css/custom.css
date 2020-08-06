@@ -17,7 +17,7 @@
     font-family: FontAwesome;
     /*bottom: 10px;*/
     bottom: -3px;
-    color: darkred;
+    color: navy;
 }
 
 /*---///---///---///---///---///---///---///---///---///---
@@ -30,17 +30,17 @@
 }
 
 .main-nav .navbar-nav>li>a:hover {
-    color: crimson;
+    color: cadetblue;
 }
 .navbar-nav>.active>a {
-    color: crimson !important;
+    color: cadetblue !important;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.63);
 
 }
 
 .linkIcon, .modalIcon{
     /*border: 1px solid #a62c46;*/
-    color: darkred;
+    color: darkblue;
     /*margin: 0;*/
     /*padding: 0;*/
 }
@@ -57,7 +57,7 @@
 }
 
 .portfolio-item:hover img{
-    border: 1px solid darkred;
+    border: 1px solid darkblue;
     /*opacity: 0.5;*/
     z-index: -1;
     /*margin-left: 70px;*/
@@ -81,7 +81,7 @@
 }
 
 .portfolio-item .portfolio-item-info:before {
-    border: navy;
+    border: cadetblue;
     /*height: 100%;*/
     /*width: 100%;*/
      /*width: 80%;*/
@@ -94,7 +94,7 @@
 .portfolio-item .item-caption i{
     /*border: 1px solid orange;*/
     /*background: floralwhite;*/
-    color: darkred;
+    color: cadetblue;
 
     text-align: left;
     /*padding: 0;*/
@@ -114,7 +114,7 @@
 
 .portfolio-item-info .item-caption h4{
     /*border: 1px solid aqua;*/
-    color: darkred;
+    /*color: darkred;*/
 }
 
 .myProject-title{
@@ -122,7 +122,7 @@
 }
 
 .myProject-list li{
-    color: darkred;
+    color: midnightblue;
     display: inline-block;
 }
 
@@ -165,7 +165,7 @@ myHeading h1{
 
 .welcome-col ul li a i:hover {
     /*border-color: #96C346;*/
-    background: darkred;
+    background: midnightblue;
     color: #ffffff;
 }
 
@@ -197,9 +197,11 @@ myHeading h1{
 
 .welcome-section{
     background-size: cover;
-    background-position: center;
+    /*background-position: center;*/
+    background-position: revert;
+
     background-repeat: no-repeat;
-    background-image: url(../images/screenshort/backgroundcode.png);
+    background-image: url(../images/screenshort/2-kaneohe.jpg);
 
     padding: 0;
     /*filter:opacity(5%);*/
@@ -225,7 +227,7 @@ myHeading h1{
 .portfolio-section.section-default, .info-box{
     color: whitesmoke;
     /*background: #1d1d1d;*/
-    background-color: black;
+    background-color: cadetblue;
     /*padding: 50px 0 5px;*/
 
 }
@@ -383,7 +385,7 @@ mySkills{
 .serviceBox .service-icon{
     width: 100px;
     background: white;
-    /*font-size: 60px;*/
+    font-size: 80px;
     /*left: 30px;*/
     /*margin: 0;*/
     /*transform: scale(0.9, 0.9);*/
@@ -594,3 +596,8 @@ form-messages{
 .contactColumn{
     padding-bottom: 20px;
 }
+
+/*.welcome-section-two.over-layer-black:before {*/
+     /*background: rgba(0, 0, 0, 0.8);*/
+
+/*}*/
