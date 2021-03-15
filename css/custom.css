@@ -25,8 +25,8 @@
 ---///---///---///---///---///---///---///---///---///---*/
 
 .main-nav{
-    background: transparent;
-    /*background-color: black;*/
+    /*background: transparent;*/
+    background-color: black;
 }
 
 .main-nav .navbar-nav>li>a:hover {
@@ -169,16 +169,16 @@ myHeading h1{
     color: #ffffff;
 }
 
+#myName{
+    left: 0;
+    top: 0;
+    font-size: 45px;
+}
 
-/*#myName{*/
-    /*left: 0;*/
-    /*top: 0;*/
-/*}*/
+.welcome-section-two{
+    background-color: white;
 
-/*.welcome-section-two{*/
-    /*background-color: white;*/
-
-/*}*/
+}
 
 .welcome-section {
     /*padding: 220px 0 0;*/
@@ -187,30 +187,31 @@ myHeading h1{
     opacity: 0.9;
 }
 
-/*#myBackground{*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
+#myBackground{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     /*background-image: url(../images/screenshort/backgroundcode.png);*/
-    /*padding: 0;*/
-/*}*/
+    padding: 0;
+}
 
 .welcome-section{
     background-size: cover;
-    /*background-position: center;*/
-    background-position: revert;
+    background-position: center;
+    /*background-position: revert;*/
 
     background-repeat: no-repeat;
-    background-image: url(../images/screenshort/2-kaneohe.jpg);
+    background-image: url(../images/screenshort/new-background.png);
 
-    padding: 0;
+    /*padding: 0;*/
+    padding-bottom: 10%;
+    filter: opacity(0.9);
+
     /*filter:opacity(5%);*/
     /*background-image: url(../images/screenshort/new_background.png);*/
     /*padding: 220px 0 0;*/
 
 }
-
-
 
 .logo-terrado{
     color: white;
@@ -227,7 +228,7 @@ myHeading h1{
 .portfolio-section.section-default, .info-box{
     color: whitesmoke;
     /*background: #1d1d1d;*/
-    background-color: cadetblue;
+    background-color: black;
     /*padding: 50px 0 5px;*/
 
 }
