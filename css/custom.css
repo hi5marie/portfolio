@@ -142,10 +142,10 @@ myHeading h1{
 
 .myHeading{
     font-family: 'Oxygen', sans-serif;
-    font-style: normal;
-    /*font-weight: normal;*/
+    /*font-style: normal;*/
+    font-weight: normal;
     font-size: 50px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 @media screen and (max-width: 601px){
     .myHeading h1{
@@ -176,9 +176,10 @@ myHeading h1{
 #myName{
     left: 0;
     top: 0;
-    font-size: 45px;
+    font-size: 50px;
 
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.63);
+    /*text-shadow: 0 0 1px rgba(0, 0, 0, 0.63);*/
+    background: rgb(0 0 0 /25%);
 
 }
 
@@ -191,19 +192,19 @@ myHeading h1{
     /*padding: 220px 0 0;*/
     position: relative;
     /*filter: blur(1px);*/
-    opacity: 0.9;
+    /*opacity: 0.9;*/
 }
 
-#myBackground{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /*background-image: url(../images/screenshort/new-background.png);*/
-    padding: 0;
-}
+/*#myBackground{*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*!*background-image: url(../images/screenshort/new-background.png);*!*/
+    /*padding: 0;*/
+/*}*/
 
 .welcome-section{
-    background-size: auto;
+    background-size: contain;
     background-position: initial;
     background-repeat: no-repeat;
     background-image: url(../images/screenshort/new-background.png);
