@@ -230,8 +230,9 @@ myHeading h1{
 
 .portfolio-section.section-default, .info-box{
     color: whitesmoke;
+    background-color: rgba(0.1, 0.3, 0.5, 0.9);
+
     /*background: #1d1d1d;*/
-    background-color: black;
     /*padding: 50px 0 5px;*/
 
 }
