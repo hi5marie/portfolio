@@ -229,9 +229,8 @@ myHeading h1{
 
 .portfolio-section.section-default, .info-box{
     color: whitesmoke;
-    background-color: rgba(0.1, 0.3, 0.5, 0.9);
-
-    /*background: #1d1d1d;*/
+    background: black;
+    /*background-color: rgba(0.1, 0.3, 0.5, 0.9);*/
     /*padding: 50px 0 5px;*/
 
 }
@@ -605,3 +604,8 @@ form-messages{
      /*background: rgba(0, 0, 0, 0.8);*/
 
 /*}*/
+
+h2{
+    font-family: 'Oxygen', sans-serif;
+
+}
