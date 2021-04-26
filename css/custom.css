@@ -177,9 +177,8 @@ myHeading h1{
     left: 0;
     top: 0;
     font-size: 50px;
-
     /*text-shadow: 0 0 1px rgba(0, 0, 0, 0.63);*/
-    background: rgb(0 0 0 /25%);
+    /*background: rgb(0 0 0 /25%);*/
 
 }
 
