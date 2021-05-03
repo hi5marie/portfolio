@@ -203,8 +203,8 @@ myHeading h1{
 /*}*/
 
 .welcome-section{
-    background-size: contain;
-    background-position: initial;
+    background-size: cover;
+    /*background-position: initial;*/
     background-repeat: no-repeat;
     background-image: url(../images/screenshort/new-background.png);
 
@@ -605,7 +605,6 @@ form-messages{
 
 /*}*/
 
-h2{
-    font-family: 'Oxygen', sans-serif;
-
-}
+/*h2{*/
+    /*font-family: 'Oxygen', sans-serif;*/
+/*}*/
