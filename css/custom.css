@@ -142,10 +142,10 @@ myHeading h1{
 
 .myHeading{
     font-family: 'Oxygen', sans-serif;
-    font-style: normal;
-    /*font-weight: normal;*/
+    /*font-style: normal;*/
+    font-weight: normal;
     font-size: 50px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 @media screen and (max-width: 601px){
     .myHeading h1{
@@ -169,10 +169,17 @@ myHeading h1{
     color: #ffffff;
 }
 
+.fa .fa-linkedin .myLinkedin{
+    background-color: blue;
+}
+
 #myName{
     left: 0;
     top: 0;
-    font-size: 45px;
+    font-size: 50px;
+    /*text-shadow: 0 0 1px rgba(0, 0, 0, 0.63);*/
+    /*background: rgb(0 0 0 /25%);*/
+
 }
 
 .welcome-section-two{
@@ -184,33 +191,28 @@ myHeading h1{
     /*padding: 220px 0 0;*/
     position: relative;
     /*filter: blur(1px);*/
-    opacity: 0.9;
+    /*opacity: 0.9;*/
 }
 
-#myBackground{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /*background-image: url(../images/screenshort/backgroundcode.png);*/
-    padding: 0;
-}
+/*#myBackground{*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*!*background-image: url(../images/screenshort/new-background.png);*!*/
+    /*padding: 0;*/
+/*}*/
 
 .welcome-section{
     background-size: cover;
-    background-position: center;
-    /*background-position: revert;*/
-
+    /*background-position: initial;*/
     background-repeat: no-repeat;
     background-image: url(../images/screenshort/new-background.png);
 
-    /*padding: 0;*/
-    padding-bottom: 10%;
-    filter: opacity(0.9);
+    padding-bottom: 20%;
+    /*filter: opacity(0.9);*/
 
     /*filter:opacity(5%);*/
-    /*background-image: url(../images/screenshort/new_background.png);*/
     /*padding: 220px 0 0;*/
-
 }
 
 .logo-terrado{
@@ -227,8 +229,8 @@ myHeading h1{
 
 .portfolio-section.section-default, .info-box{
     color: whitesmoke;
-    /*background: #1d1d1d;*/
-    background-color: black;
+    background: black;
+    /*background-color: rgba(0.1, 0.3, 0.5, 0.9);*/
     /*padding: 50px 0 5px;*/
 
 }
@@ -601,4 +603,8 @@ form-messages{
 /*.welcome-section-two.over-layer-black:before {*/
      /*background: rgba(0, 0, 0, 0.8);*/
 
+/*}*/
+
+/*h2{*/
+    /*font-family: 'Oxygen', sans-serif;*/
 /*}*/
